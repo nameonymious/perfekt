@@ -26,12 +26,12 @@
 <script src="external/animated-header/js/TweenLite.min.js"></script>
 <script src="external/animated-header/js/EasePack.min.js"></script>
 <script src="external/animated-header/js/rAF.js"></script>
-<!-- <script src="external/animated-header/js/header-animate.js"></script> -->
-<!-- <script src="external/animated-header/js/animation-bubble.js"></script> -->
-<!-- <script src="external/animated-header/js/animation-bubble-fixed.js"></script> -->
+<script src="external/animated-header/js/header-animate.js"></script>
+<script src="external/animated-header/js/animation-bubble.js"></script>
+<script src="external/animated-header/js/animation-bubble-fixed.js"></script>
 
 <!-- Custom -->
-<!-- <script src="js/custom.js"></script> -->
+<script src="js/custom.js"></script>
 
 
 
@@ -42,7 +42,7 @@
 </script>
 
 <!-- only for table of contents -->
-<script src="js/scrollMonitor.js"></script>
+<!-- <script src="js/scrollMonitor.js"></script> -->
  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script src="js/jquery.tocify.js""></script>
 
@@ -74,10 +74,16 @@
 	    	//if(document.body.scrollTop > 10) {
 	    	if($('#headerState').hasClass('header-up'))	{
 	    		topXX = $(".fixed-top").outerHeight();
-	    		console.log(topXX);
+	    		
 	    	} else {
 	    		topXX=$("#headerMenu").outerHeight();
+	    	}
+	    	var maxHeight =$(window).height()-$('#footer').outerHeight();
+	    	
+	    	if(document.body.scrollTop+topXX+$("#toc").outerHeight()+20 > $("#footer").offset().top) {
 	    		console.log(topXX);
+	    		console.log( 0+ document.body.scrollTop+topXX+$("#toc").outerHeight()+20 - $("#footer").offset().top);
+	    		topXX =topXX  -(document.body.scrollTop+topXX+$("#toc").outerHeight()+40 - $("#footer").offset().top);
 	    	}
 	    	
 	    	$("#toc").css('top',topXX +'px');

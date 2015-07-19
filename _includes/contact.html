@@ -3,19 +3,19 @@
 <div id='map-light-full' class="map map--wide"></div>
       <div class="row">
         <div class="col-sm-6">
-          <h3 class="heading-helper heading-helper--large heading-helper--left">Contact information</h3>
+          <h3 class="heading-helper heading-helper--large heading-helper--left">Контактная информация</h3>
           <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam dolor nisi, fermentum at vulputate in, aliquam id justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam et accumsan ante, et consequat neque. Fusce quis molestie eros.</p>
 
           <!-- Contact information about company -->
           <address class="contact-info contact-info--stack">
               <span class="contact-info__item">
                 <i class="fa fa-location-arrow"></i>
-                <div class="contact-info__heading">Address:</div>
-                <a href="http://maps.google.com/?q=101 West Street, New York, NY 10014" target="_blank">101 West Street, New York, NY 12345</a>
+                <div class="contact-info__heading">Адрес:</div>
+                <a href="http://maps.google.com/?q=Habsburgergasse 4/4, 1010 Vienna, Austria" target="_blank">Habsburger Gasse 4/4, 1010 Вена, Австрия</a>
               </span>
               <span class="contact-info__item">
                 <i class="fa fa-phone"></i>
-                <div class="contact-info__heading">Phone number:</div>
+                <div class="contact-info__heading">Телефон:</div>
                 <a href="tel://1-888-555-5555">+1-888-555-5555</a>
               </span>
               <span class="contact-info__item">
@@ -58,14 +58,14 @@
 
         <div class="col-sm-5 col-sm-offset-1">
           <form class="contact contact--clean contact--full" id="contact-form-full" name="contact-form" method="post" action="send-full.php" novalidate>
-            <h3 class="heading-helper heading-helper--large heading-helper--left">drop us a line</h3>
+            <h3 class="heading-helper heading-helper--large heading-helper--left">свяжитесь с нами</h3>
                 
-            <input class="contact__field" name="contact-name" type="text" placeholder="full name">
+            <input class="contact__field" name="contact-name" type="text" placeholder="имя и фамилия">
             <input class="contact__field" name="contact-email" type="email" placeholder="email">
-            <input class="contact__field" name="contact-phone" type="tel" placeholder="phone">
-            <input class="contact__field" name="contact-subject" type="email" placeholder="subject">
-            <textarea class="contact__field contact__area" name="contact-message" placeholder="message"></textarea>
-            <button class="btn btn--decorated btn-warning btn-submit" type="submit">Send Message</button>
+            <input class="contact__field" name="contact-phone" type="tel" placeholder="контактный телефон">
+            <input class="contact__field" name="contact-subject" type="email" placeholder="тема">
+            <textarea class="contact__field contact__area" name="contact-message" placeholder="сообщение"></textarea>
+            <button class="btn btn--decorated btn-warning btn-submit" type="submit">Отправить сообщение</button>
           </form>
         </div>
       </div><!-- end row -->
@@ -79,14 +79,19 @@
  function initialize() {
 
       var mapDiv = document.getElementById("map-light-full");
-      var latlng = new google.maps.LatLng(-34.397, 150.644);
+      var latlng = new google.maps.LatLng(48.208758, 16.368733);
       var mapOptions = 
       {
-          zoom: 8,
+          zoom: 14,
           center:latlng,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
       };
       var map = new google.maps.Map(mapDiv, mapOptions);
+      var marker = new google.maps.Marker({
+          position: latlng,
+          map: map,
+          title: 'Zentrum Perfekt'
+      });
      
   }
   google.maps.event.addDomListener(window, 'load', initialize);
