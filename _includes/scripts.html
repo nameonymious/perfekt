@@ -1,0 +1,93 @@
+
+<!-- JavaScript-->
+<!-- External-->
+<!-- jQuery 1.10.1-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>
+	window.jQuery
+			|| document
+					.write('<script src="external/jquery/jquery-1.10.1.min.js"><\/script>')
+</script>
+<!-- Bootstrap 3-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- Mobile menu -->
+<script src="external/z-nav/jquery.mobile.menu.js"></script>
+<!-- Touch slider - Swiper -->
+<script src="external/swiper/idangerous.swiper.js"></script>
+<!-- Twitter feed -->
+<script src="external/twitterfeed/twitterfeed.js"></script>
+<!-- Scroll to piugin -->
+<script src="external/scrollto/jquery.scrollTo.min.js"></script>
+
+
+
+
+<!-- Header (space animation) -->
+<script src="external/animated-header/js/TweenLite.min.js"></script>
+<script src="external/animated-header/js/EasePack.min.js"></script>
+<script src="external/animated-header/js/rAF.js"></script>
+<!-- <script src="external/animated-header/js/header-animate.js"></script> -->
+<!-- <script src="external/animated-header/js/animation-bubble.js"></script> -->
+<!-- <script src="external/animated-header/js/animation-bubble-fixed.js"></script> -->
+
+<!-- Custom -->
+<!-- <script src="js/custom.js"></script> -->
+
+
+
+<script>
+	$(document).ready(function() {
+
+	});
+</script>
+
+<!-- only for table of contents -->
+<script src="js/scrollMonitor.js"></script>
+ <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="js/jquery.tocify.js""></script>
+
+<script>
+
+
+	// Tocify Table
+	if($.isFunction($.fn.tocify) && $("#toc").length)
+	{
+		
+		$("#toc").tocify({
+			context: '.tocify-content',
+			selectors: "h2,h3,h4,h5",
+			ignoreSelector: ".ignoreToc"
+		});
+
+
+		var $this = $(".tocify"),
+			topXX=0;
+
+		$this.width( $this.parent().width() );
+
+		
+		
+	    $( window ).scroll(function () {
+	        // if(document.body.scrollTop > height) animateHeader = false;
+	        // else animateHeader = true;
+	    	
+	    	//if(document.body.scrollTop > 10) {
+	    	if($('#headerState').hasClass('header-up'))	{
+	    		topXX = $(".fixed-top").outerHeight();
+	    		console.log(topXX);
+	    	} else {
+	    		topXX=$("#headerMenu").outerHeight();
+	    		console.log(topXX);
+	    	}
+	    	
+	    	$("#toc").css('top',topXX +'px');
+			//$("#toc").addClass('fixed');
+	    	//}else{
+	    		//$("#toc").css('top','0px');
+	    		//$("#toc").removeClass('fixed');
+	    	//}
+	    });
+
+
+	}
+</script>

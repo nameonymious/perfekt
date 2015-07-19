@@ -1,0 +1,13 @@
+# coding: utf-8
+global:
+  italian: Italiano
+  english: English
+  spanish: Español
+  tagline: ЕСТЕСТВОЗНАНИЕ
+  about: About
+  twitter: Twitter
+  github: GitHub
+pages:
+  example: example
+menu: 
+  home: Home

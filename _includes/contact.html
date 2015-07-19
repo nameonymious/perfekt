@@ -1,0 +1,93 @@
+    <section class="container">
+    
+<div id='map-light-full' class="map map--wide"></div>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 class="heading-helper heading-helper--large heading-helper--left">Contact information</h3>
+          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam dolor nisi, fermentum at vulputate in, aliquam id justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam et accumsan ante, et consequat neque. Fusce quis molestie eros.</p>
+
+          <!-- Contact information about company -->
+          <address class="contact-info contact-info--stack">
+              <span class="contact-info__item">
+                <i class="fa fa-location-arrow"></i>
+                <div class="contact-info__heading">Address:</div>
+                <a href="http://maps.google.com/?q=101 West Street, New York, NY 10014" target="_blank">101 West Street, New York, NY 12345</a>
+              </span>
+              <span class="contact-info__item">
+                <i class="fa fa-phone"></i>
+                <div class="contact-info__heading">Phone number:</div>
+                <a href="tel://1-888-555-5555">+1-888-555-5555</a>
+              </span>
+              <span class="contact-info__item">
+                <i class="fa fa-envelope"></i>
+                <div class="contact-info__heading">Email:</div>
+                <a href="mailto:info@allec.com?subject=Email from website">info@allec.com</a>/<a href="mailto:sales@allec.com?subject=Email from website">sales@allec.com</a>
+              </span>
+              <span class="contact-info__item">
+                <i class="fa fa-skype"></i>
+                <div class="contact-info__heading">Skype:</div>
+                <a href="skype:allec-support?call">allec-support</a>
+              </span>
+          </address>
+          <!-- end contact information -->
+
+          <div class="social social--soft">
+            <!-- List with social icons -->
+            <ul>
+              <li class="social__item"><a class="social__link" href="https://twitter.com/OliaGozha" target="_blank"><i class="social__icon fa fa-twitter"></i></a></li>
+              <li class="social__item"><a class="social__link" href="https://www.facebook.com/olia.gozha" target="_blank"><i class="social__icon fa fa-facebook"></i></a></li>
+              <li class="social__item"><a class="social__link" href="https://plus.google.com/u/0/+OliaGozha/posts" target="_blank"><i class="social__icon fa fa-google-plus"></i></a></li>
+              <li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-pinterest"></i></a></li>
+              <li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-tumblr"></i></a></li>
+              <li class="social__item"><a class="social__link" href="http://www.linkedin.com/pub/olia-gozha/49/b91/268" target="_blank"><i class="social__icon fa fa-linkedin"></i></a></li>
+              <li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-youtube"></i></a></li>
+              <li class="social__item"><a class="social__link" href="http://www.behance.net/olia_gozha" target="_blank"><i class="social__icon fa fa-behance"></i></a></li>
+              <li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-vine"></i></a></li>
+              <li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-github-alt"></i></a></li>
+              <li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-flickr"></i></a></li>
+              <li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-vimeo-square"></i></a></li>
+              <li class="social__item"><a class="social__link" href="http://dribbble.com/OliaGozha" target="_blank"><i class="social__icon fa fa-dribbble"></i></a></li>
+              <li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-stumbleupon"></i></a></li>
+              <li class="social__item"><a class="social__link" href="http://instagram.com/olechka_dumka#" target="_blank"><i class="social__icon fa fa-instagram"></i></a></li>
+              <li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-soundcloud"></i></a></li>
+              
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-5 col-sm-offset-1">
+          <form class="contact contact--clean contact--full" id="contact-form-full" name="contact-form" method="post" action="send-full.php" novalidate>
+            <h3 class="heading-helper heading-helper--large heading-helper--left">drop us a line</h3>
+                
+            <input class="contact__field" name="contact-name" type="text" placeholder="full name">
+            <input class="contact__field" name="contact-email" type="email" placeholder="email">
+            <input class="contact__field" name="contact-phone" type="tel" placeholder="phone">
+            <input class="contact__field" name="contact-subject" type="email" placeholder="subject">
+            <textarea class="contact__field contact__area" name="contact-message" placeholder="message"></textarea>
+            <button class="btn btn--decorated btn-warning btn-submit" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div><!-- end row -->
+    </section><!-- end container -->
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript">
+ function initialize() {
+
+      var mapDiv = document.getElementById("map-light-full");
+      var latlng = new google.maps.LatLng(-34.397, 150.644);
+      var mapOptions = 
+      {
+          zoom: 8,
+          center:latlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+      };
+      var map = new google.maps.Map(mapDiv, mapOptions);
+     
+  }
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>

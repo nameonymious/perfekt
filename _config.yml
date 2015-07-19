@@ -1,0 +1,9 @@
+encoding: UTF-8
+name: Flex
+markdown: redcarpet
+
+
+baseurl: ""
+permalink: /:title/
+
+languages: ["ru"]
