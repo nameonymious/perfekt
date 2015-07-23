@@ -1,0 +1,51 @@
+---
+---
+
+@import 'bourbon'; // http://bourbon.io/
+
+@import 'variables'; // colors, fonts etc...
+
+@import 'mixins'; // custom mixins
+
+@import 'layout'; // responsive grid and media queries
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+*, *::after, *::before {
+  @include box-sizing(border-box);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: {
+	size: 1.6rem;
+	family: $primary-font; // variables inside partials > _variables.scss
+  }
+  color: $color-1;
+  background-color: darken($color-2, 10%);
+}
+
+svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -------------------------------- 
+
+Main Components 
+
+-------------------------------- */
+
+@import "menu";
+
+@import "hero";

@@ -1,0 +1,22 @@
+.bg-image {
+    position: relative;
+}
+.bg-image img {
+    display: block;
+    width: 100%;
+    //max-width: 1200px; /* corresponds to max height of 450px */
+    margin: 0 auto;
+}
+.bg-image h1 {
+    position: absolute;
+    text-align: left;
+    top: 5px;
+    left: 5%;
+    right: 0;
+    color: white;
+    font-size: 20px;
+
+    @include MQ(L) {
+        top: 17px;
+    }
+}
