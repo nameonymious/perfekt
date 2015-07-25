@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="scss/styleSass.css"> <!-- Resource style -->
     <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/styleSass.css"> <!-- Resource style -->
    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
     <title>Document</title>
@@ -18,7 +19,10 @@
 
 {% include menu.html %}
 
+<div class="cd-section index cd-selected">
 {{ content }}
+</div>
+
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
