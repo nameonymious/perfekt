@@ -10,4 +10,13 @@ pages:
   example: Esempio
 menu: 
   home: Главная
- 
+departments:
+    german_kids: НЕМЕЦКИЙ ЯЗЫК ДЛЯ ДЕТЕЙ
+    german_adults: КУРСЫ НЕМЕЦКОГО ЯЗЫКА
+    russian: РУССКИЙ ЯЗЫК И ЛИТЕРАТУРА
+    natural_history: ЕСТЕСТВОЗНАНИЕ ДЛЯ ДЕТЕЙ
+    music: МУЗЫКАЛЬНОЕ ИСКУССТВО
+    singing: ВОКАЛЬНОЕ ИСКУССТВО
+    variety: ЭСТРАДНО-ДЖАЗОВОЕ ИСКУССТВО
+    visual_arts: ИЗОБРАЗИТЕЛЬНОЕ ИСКУССТВО
+    

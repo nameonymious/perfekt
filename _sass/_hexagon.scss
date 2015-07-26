@@ -1,0 +1,401 @@
+.hexagon {
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -ms-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -moz-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#default)
+}
+.hexagon.text {
+    color: #fff;
+    background-color: rgba(0, 25, 255, 0.15);
+}
+.white .hexagon.text {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+.hexagon.text .wrap {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 100%
+}
+.hexcontent {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 0 5px
+}
+.hextitle {
+    font-size: 19px;
+    margin: 0 0 5px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase
+}
+.hexcontent p {
+    margin: 0 0 3px;
+    line-height: 17px;
+    font-size: 14px
+}
+.hex {
+    text-align: center;
+    width: 1020px;
+    margin: 30px auto 60px
+}
+.hex ul {
+    list-style-position: outside;
+    margin: 0;
+    padding: 0
+}
+.hex ul li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    list-style-position: outside;
+    padding: 0;
+    overflow: hidden
+}
+.hex ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center center
+}
+
+.hex ul li .hexdesc {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center center
+}
+.hex ul li.text a {
+    height: 100%
+}
+.hex ul li a.hovereffect {
+    display: none
+}
+.hex ul li:hover a.hovereffect {
+    display: block
+}
+
+
+
+.hexres li,
+.hex5 li,
+.hex4 li,
+.hex3 li {
+    margin: 0px 15px;
+    overflow: hidden
+}
+.hex .vc_icon_element-size-m .vc_icon_element-icon {
+    font-size: 2em
+}
+.hex .vc_icon_element-size-l .vc_icon_element-icon {
+    font-size: 3em
+}
+.hex .vc_icon_element-size-xl .vc_icon_element-icon {
+    font-size: 5em
+}
+@media (min-width: 1280px) {
+    .hexres,
+    .hex5,
+    .hex4,
+    .hex3 {
+        width: 1280px
+    }
+    .hexres li,
+    .hex5 li {
+        width: 226px;
+        height: 250px;
+        margin-bottom: -38px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h5hres1280)
+    }
+    div:not(.referenzen).hexres li:nth-child(1),
+    div:not(.referenzen).hexres li:nth-child(9n+1),
+    div:not(.referenzen).hex5 li:nth-child(1),
+    div:not(.referenzen).hex5 li:nth-child(9n+1) {
+        margin-left: 143px !important
+    }
+    .hex.referenzen .new-row {
+        margin-left: 143px !important
+    }
+    .hex4 li {
+        width: 290px;
+        height: 333px;
+        margin-bottom: -55px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h41280)
+    }
+    div:not(.referenzen).hex4 li:nth-child(1),
+    div:not(.referenzen).hex4 li:nth-child(7n+1) {
+        margin-left: 175px !important
+    }
+    .hex3 li {
+        width: 396px;
+        height: 455px;
+        margin-bottom: -89px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h31280)
+    }
+    div:not(.referenzen).hex3 li:nth-child(1),
+    div:not(.referenzen).hex3 li:nth-child(5n+1) {
+        margin-left: 228px !important
+    }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .hexres,
+    .hex5,
+    .hex4,
+    .hex3 {
+        width: 1024px
+    }
+    .hex5 li {
+        width: 174px;
+        height: 190px;
+        margin-bottom: -26px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h51024)
+    }
+    div:not(.referenzen).hex5 li:nth-child(1),
+    div:not(.referenzen).hex5 li:nth-child(9n+1) {
+        margin-left: 117px !important
+    }
+    .hex.referenzen .new-row {
+        margin-left: 117px !important
+    }
+    .hexres li,
+    .hex4 li {
+        width: 226px;
+        height: 260px;
+        margin-bottom: -42px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h4hres1024)
+    }
+    div:not(.referenzen).hexres li:nth-child(1),
+    div:not(.referenzen).hexres li:nth-child(7n+1),
+    div:not(.referenzen).hex4 li:nth-child(1),
+    div:not(.referenzen).hex4 li:nth-child(7n+1) {
+        margin-left: 143px !important
+    }
+    .hex3 li {
+        width: 311px;
+        height: 358px;
+        margin-bottom: -68px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h31024)
+    }
+    .hex3 li:nth-child(1),
+    .hex3 li:nth-child(5n+1) {
+        margin-left: 186px !important
+    }
+}
+@media (min-width: 960px) and (max-width: 1023px) {
+    .hexres,
+    .hex5,
+    .hex4,
+    .hex3 {
+        width: 960px
+    }
+    .hex5 li {
+        width: 162px;
+        height: 180px;
+        margin-bottom: -20px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h5960)
+    }
+    div:not(.referenzen).hex5 li:nth-child(1),
+    div:not(.referenzen).hex5 li:nth-child(9n+1) {
+        margin-left: 111px !important
+    }
+    .hex5 .new-row {
+        margin-left: 111px !important
+    }
+    .hexres li,
+    .hex4 li {
+        width: 210px;
+        height: 241px;
+        margin-bottom: -35px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h4hres960)
+    }
+    div:not(.referenzen).hexres li:nth-child(1),
+    div:not(.referenzen).hexres li:nth-child(7n+1),
+    div:not(.referenzen).hex4 li:nth-child(1),
+    div:not(.referenzen).hex4 li:nth-child(7n+1) {
+        margin-left: 135px !important
+    }
+    .hexres .new-row,
+    .hex4 .new-row {
+        margin-left: 135px !important
+    }
+    .hex3 li {
+        width: 290px;
+        height: 330px;
+        margin-bottom: -60px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h3960)
+    }
+    div:not(.referenzen).hex3 li:nth-child(1),
+    div:not(.referenzen).hex3 li:nth-child(5n+1) {
+        margin-left: 175px !important
+    }
+    .hex3 .new-row {
+        margin-left: 175px !important
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .hexres,
+    .hex5,
+    .hex4,
+    .hex3 {
+        width: 768px
+    }
+    .hex5 li {
+        width: 133px;
+        height: 152px;
+        margin: 0 10px;
+        margin-bottom: -20px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h5768)
+    }
+    div:not(.referenzen).hex5 li:nth-child(1),
+    div:not(.referenzen).hex5 li:nth-child(9n+1) {
+        margin-left: 86.5px !important
+    }
+    .hex5 .new-row {
+        margin-left: 86.5px !important
+    }
+    .hex4 li {
+        width: 162px;
+        height: 186px;
+        margin: 0 10px;
+        margin-bottom: -26px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h4768)
+    }
+    div:not(.referenzen).hex4 li:nth-child(1),
+    div:not(.referenzen).hex4 li:nth-child(7n+1) {
+        margin-left: 100px !important
+    }
+    .hex4 .new-row {
+        margin-left: 100px !important
+    }
+    .hexres {
+        width: 740px;
+        margin-left: 15px
+    }
+    .hexres li,
+    .hex3 li {
+        width: 226px;
+        height: 260px;
+        margin: 0 10px;
+        margin-bottom: -50px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h3hres768)
+    }
+    div:not(.referenzen).hexres li:nth-child(1),
+    div:not(.referenzen).hexres li:nth-child(5n+1),
+    div:not(.referenzen).hex3 li:nth-child(1),
+    div:not(.referenzen).hex3 li:nth-child(5n+1) {
+        margin-left: 133px !important
+    }
+    .hexres .new-row,
+    .hex3 .new-row {
+        margin-left: 133px !important
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hexres,
+    .hex5,
+    .hex4,
+    .hex3 {
+        width: 480px
+    }
+    .hexres li,
+    .hex5 li,
+    .hex4 li,
+    .hex3 li {
+        width: 220px;
+        height: 252px;
+        margin: 0 10px;
+        margin-bottom: -50px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#hall481)
+    }
+    div:not(.referenzen).hexres li:nth-child(1),
+    div:not(.referenzen).hexres li:nth-child(3n+1),
+    div:not(.referenzen).hex5 li:nth-child(1),
+    div:not(.referenzen).hex5 li:nth-child(3n+1),
+    div:not(.referenzen).hex4 li:nth-child(1),
+    div:not(.referenzen).hex4 li:nth-child(3n+1),
+    div:not(.referenzen).hex3 li:nth-child(1),
+    div:not(.referenzen).hex3 li:nth-child(3n+1) {
+        margin-left: 133px !important
+    }
+    .new-row {
+        margin-left: 133px !important
+    }
+}
+@media (max-width: 480px) {
+    .hexres,
+    .hex5,
+    .hex4,
+    .hex3 {
+        width: 96%;
+        padding: 2%
+    }
+    .hexres li,
+    .hex5 li,
+    .hex4 li,
+    .hex3 li {
+        width: 100%;
+        height: 96vw;
+        margin: 20px 0 0
+    }
+    .hexres li,
+    .hex5 li,
+    .hex4 li,
+    .hex3 li {
+        width: 50%;
+        height: 45vw;
+        margin: 0
+    }
+    .hex.referenzen li {
+        width: 33%;
+        height: 33vw;
+        margin: 0
+    }
+    .hexagon {
+        -webkit-clip-path: none;
+        -moz-clip-path: none;
+        clip-path: none
+    }
+    .hexagon.text {
+        height: 45vw !important;
+        margin: 0 0
+    }
+    .hextitle {
+        margin: 15px 0 0 0;
+        font-size: 14px;
+        line-height: 1.3em
+    }
+    .hexagon.text .wrap {
+        height: 45vw;
+        min-height: 45vw
+    }
+    .hexcontent {
+        position: relative;
+        top: 50%;
+        transform: none;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%)
+    }
+    .text .hexcontent {
+        padding-bottom: 10px
+    }
+    .text .hexcontent p {
+        font-size: 10px;
+        line-height: 1.2em
+    }
+    .hexagon.empty {
+        display: none
+    }
+}
