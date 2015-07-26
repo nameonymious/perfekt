@@ -8,9 +8,16 @@
     height: 44px;
    
     z-index: 3;
-    background-color: rgba(236, 236, 236, 0.87);
+   background-color: rgb(47, 123, 176);
+   color: white;
+
     border-radius: 5px;
     padding: 10px;
+    
+    
+    & a {
+      color: white;
+    }
     
     
       @include MQ(L) {
