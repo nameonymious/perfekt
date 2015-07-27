@@ -17,12 +17,21 @@ $expand-animation-duration: .4s;
 
 	@include MQ(L) {
 		width: 50%;
+		
 
 		.cd-slider-active & {
 			width: 100%;
 		}
-	}
+		
+		     &.reverse  {
+      left: 50%;
+     
 }
+	}
+	 
+
+}
+
 
 .cd-slider {
 	position: relative;
@@ -282,6 +291,12 @@ $expand-animation-duration: .4s;
 		right: 0;
 		padding: 60px 60px 0;
 		margin: 0;
+		
+		&.reverse {
+      left: 0;
+      height: 20px;
+    }
+		
 	}
 }
 
