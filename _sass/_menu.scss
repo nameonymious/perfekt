@@ -151,7 +151,7 @@ xnavigation
       family: $secondary-font;
     }
     text-transform: uppercase;
-    color: $color-2;
+    color: #18315B;
   }
 
   @include MQ(M) {
@@ -189,7 +189,7 @@ xnavigation
     width: 32px;
     left: 50%;
     top: 50%;
-    background-color: $color-2;
+    background-color: #18315B;
     @include backface-visibility(hidden);
   }
 
@@ -212,7 +212,7 @@ xnavigation
 
 .cd-nav {
   @include clearfix;
-  background-color: darken($color-7, 5%);
+  background-color: #434343;
 
   li {
     @include column(.5);
@@ -263,7 +263,7 @@ xnavigation
   .no-touch & li:nth-of-type(2) a:hover,
   li.cd-selected:nth-of-type(2) a {
     /* on hover or if selected - change background color*/
-    background-color: $color-2;
+    background-color: #00821c;
   }
 
   .no-touch & li:nth-of-type(3) a:hover,
