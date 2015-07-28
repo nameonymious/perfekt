@@ -1,3 +1,23 @@
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-6">
+        <h2>Produt Title</h2>
+        <p>
+            Lorem ipsum dolor sit amet...
+        </p>
+        <div class="row">
+            <div class="col-sm-6">.col-sm-6</div>
+            <div class="col-sm-6">.col-sm-6</div>
+        </div>
+    </div>
+    <div class="col-sm-6 galleryOpenDiv openGallery1">
+        <img class="galleryOpenImg openGallery1" src="images/hero.jpg" onclick="openPhotoSwipe()">
+
+    </div>
+</div>
+</div>
+
+
 <section class="cd-single-item">
 
   <div class="cd-item-info">
@@ -82,3 +102,5 @@
 <section class="cd-content">
   <!--  other content here -->
 </section>
+
+{% include photoswipe.html %}
