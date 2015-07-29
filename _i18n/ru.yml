@@ -21,4 +21,6 @@ departments:
     visual_arts: ИЗОБРАЗИТЕЛЬНОЕ ИСКУССТВО
     early_development: ДЕТСКИЙ КЛУБ "А И Я"
     parties: ОРГАНИЗАЦИЯ ДЕТСКИХ ПРАЗДНИКОВ
+contact:
+  invalid_email: Bitte eine gültige email adresse eingeben
     

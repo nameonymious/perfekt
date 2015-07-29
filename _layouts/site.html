@@ -25,7 +25,17 @@
 
 <div class="cd-section index cd-selected">
     <main>
-{{ content }}
+
+        <div class="register" >
+            <i class="fa fa-pencil"></i>
+            <a href="/register">Регистарция</a>
+        </div>
+
+        <a href="#cd-nav" title="menu" class="cd-nav-trigger">
+            <span>Menu<!-- used to create the menu icon --></span>
+        </a>
+
+        {{ content }}
 
 {% include footer.html %}
     </main>
@@ -33,6 +43,10 @@
 
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
-{{ page.js }} 
+{{ page.js }}
+
+{% if page.validateContact %}
+    {% include validate.html %}
+{% endif %}
 </body>
 </html>

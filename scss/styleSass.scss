@@ -30,6 +30,9 @@ body {
   }
   color: $color-1;
   background-color:  $color-2;
+
+    position:relative;
+
 }
 
 svg {
@@ -224,4 +227,10 @@ textarea {
 
 .social-links li.skype a {
   color: #00aff0;
+}
+
+
+
+#success, #error {
+  display:none
 }

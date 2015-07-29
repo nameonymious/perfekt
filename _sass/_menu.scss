@@ -1,6 +1,6 @@
 .register {
   
-   position: fixed;
+   position: absolute;
   z-index: 3;
   top: 12px;
   right: 90px;
@@ -29,7 +29,7 @@
 
 .cd-nav-trigger {
   /* hamburger icon */
-  position: fixed;
+  position: absolute;
   z-index: 3;
   top: 12px;
   right: 30px;
