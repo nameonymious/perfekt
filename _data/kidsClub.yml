@@ -1,0 +1,19 @@
+ -  box1:
+      background: 'bgc-1'
+      items:
+            - p: ГРУППА РАННЕГО РАЗВИТИЯ ДЛЯ ДЕТЕЙ 1-2 ЛЕТ
+
+ -  box1:
+      background: 'bgc-2'
+      items:
+            - p: ГРУППА "А" ДЛЯ ДЕТЕЙ 2-3 ЛЕТ
+
+ -  box1:
+      background: 'bgc-3'
+      items:
+            - p: ГРУППА "И" ДЛЯ ДЕТЕЙ 3-5 ЛЕТ
+
+ -  box1:
+      background: 'bgc-4'
+      items:
+            - p: ГРУППА «Я» ДЛЯ ДЕТЕЙ 5-7 ЛЕТ
