@@ -1,0 +1,40 @@
+ -  box1:
+      background: 'bgc-1'
+      items:
+            - h: german_kids.1
+            - p: german_kids.2
+            - ul:
+                - german_kids.3
+                - german_kids.4
+                - german_kids.5
+
+ -  box1:
+      background: 'bgc-1'
+      items:
+            - h: german_kids.1
+            - p: german_kids.2
+            - ul:
+                - german_kids.3
+                - german_kids.4
+                - german_kids.5
+
+ -  box1:
+      background: 'bgc-1'
+      items:
+            - h: german_kids.1
+            - p: german_kids.2
+            - ul:
+                - german_kids.3
+                - german_kids.4
+                - german_kids.5
+
+ -  box1:
+      background: 'bgc-1'
+      items:
+            - h: german_kids.1
+            - p: german_kids.2
+            - ul:
+                - german_kids.3
+                - german_kids.4
+                - german_kids.5
+

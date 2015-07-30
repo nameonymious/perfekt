@@ -1,0 +1,52 @@
+---
+layout: site
+title: Home
+---
+
+<div class="textImage" style=" background: url(images/g1/DSC_0561.jpg) 50% 0px / cover ;">
+    <div class="filtergrey">
+        <h1> Deutsch </h1>
+    </div>
+</div>
+<br>
+
+<div class="container departmentContainer">
+    <div class="row">
+
+        {% for boxes in site.data.german_kids %}
+        {% for box in boxes%}
+        <div class="col-md-6">
+            <div class="box {{ box[1].background}}">
+
+                {% for item in box[1].items %}
+                {% for i in item  %}
+
+                {% if i[0] == 'h' %}
+                <h2 class="heading">{{ i[1] }}</h2>
+                {% endif %}
+
+                {% if i[0] == 'p' %}
+                <p>{{  i[1] }}</p>
+                {% endif %}
+
+                {% if i[0] == 'ul' %}
+                <ul>
+                    {% for li in i[1] %}
+                    <li>
+                        {{  li }}
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+        {% endfor %}
+
+
+    </div>
+</div>
+
+</div>
