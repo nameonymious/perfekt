@@ -19,7 +19,7 @@
 
     <title>Document</title>
 </head>
-<body>
+<body class="fuelux">
 
 {% include menu.html %}
 
@@ -28,7 +28,7 @@
 
         <div class="register" >
             <i class="fa fa-pencil"></i>
-            <a href="/register">Регистарция</a>
+            <a href="/registration.html">Регистарция</a>
         </div>
 
         <a href="#cd-nav" title="menu" class="cd-nav-trigger">
@@ -47,6 +47,9 @@
 
 {% if page.validateContact %}
     {% include validate.html %}
+{% endif %}
+{% if page.validateRegistration %}
+    {% include validateRegistration.html %}
 {% endif %}
 </body>
 </html>

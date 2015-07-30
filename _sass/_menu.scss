@@ -342,8 +342,8 @@ xnavigation
     li {
       @include column(.25);
       /* 116px is the navigation header height  and the menu items will be allocated in 2 rows */
-      height: calc((100vh - 116px)/2);
-      min-height: 250px;
+      height: calc((100vh - 126px)/2);
+      min-height: 240px;
 
       &:nth-of-type(2n) {
         border-right-width: 1px;
@@ -416,7 +416,7 @@ xcontent
 
 main {
   position: relative;
-  height: 100vh;
+  //height: 100vh;
   overflow-x: hidden;
   @include transition(transform $animation-duration);
   box-shadow: 0 0 30px darken($color-2, 20%);

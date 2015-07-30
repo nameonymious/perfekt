@@ -1,0 +1,9 @@
+ -  box1:
+      background: 'bgc-1'
+      items:
+            - h: german_adults.1
+            - p: german_adults.2
+            - ul:
+                - german_adults.3
+                - german_adults.4
+                - german_adults.5
