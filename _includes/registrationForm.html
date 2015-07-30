@@ -1,0 +1,83 @@
+<div class="footer-content">
+    <form role="form" id="contact" name="contact" method="post">
+        <div class="form-group has-feedback">
+            <label class="sr-only" for="lastName">ФАМИЛИЯ</label>
+            <input type="text" class="form-control" id="lastName" placeholder="ФАМИЛИЯ" name="lastName">
+            <i class="fa fa-user form-control-feedback"></i>
+        </div>
+        <div class="form-group has-feedback">
+            <label class="sr-only" for="firstName">ИМЯ</label>
+            <input type="text" class="form-control" id="firstName" placeholder="ИМЯ " name="firstName">
+            <i class="fa fa-user form-control-feedback"></i>
+        </div>
+        <div class="form-group has-feedback">
+
+        <label class="sr-only" for="birthDate">ИМЯ</label>
+        <input  id="datepicker" type="text" class="form-control" id="birthDate" placeholder="ГОД И ЧИСЛО РОЖДЕНИЯ" name="birthDate">
+        <i class="fa fa-user form-control-feedback"></i>
+    </div>
+        <div class="form-group has-feedback">
+            <label class="sr-only" for="languages">ИМЯ</label>
+            <input type="text" class="form-control" id="languages" placeholder="ВЛАДЕНИЕ ЯЗЫКАМИ" name="languages">
+            <i class="fa fa-user form-control-feedback"></i>
+        </div>
+        <div class="form-group has-feedback">
+            <label class="sr-only" for="parentsName">ИМЯ</label>
+            <input type="text" class="form-control" id="parentsName" placeholder="ФАМИЛИЯ И ИМЯ РОДИТЕЛЕЙ
+(ДЛЯ ДЕТЕЙ ДО 16 ЛЕТ)" name="parentsName">
+            <i class="fa fa-user form-control-feedback"></i>
+        </div>
+        <div class="form-group has-feedback">
+            <label class="sr-only" for="address">ИМЯ</label>
+            <input type="text" class="form-control" id="address" placeholder="АДРЕС ПРОЖИВАНИЯ" name="address">
+            <i class="fa fa-user form-control-feedback"></i>
+        </div>
+        <div class="form-group has-feedback">
+            <label class="sr-only" for="telephone">ИМЯ</label>
+            <input type="text" class="form-control" id="telephone" placeholder="ТЕЛЕФОН" name="telephone">
+            <i class="fa fa-user form-control-feedback"></i>
+        </div>
+        <div class="form-group has-feedback">
+            <label class="sr-only" for="programs">ИМЯ</label>
+            <select  class="form-control align-left" id="programs" name="programs[]" placeholder="ВЫБРАННЫЙ КУРС (ПРОГРАММА)" multiple="multiple">
+                <option value="a">Option 1</option>
+                <option value="b">Option 2</option>
+                <option value="c">Option 3</option>
+                <option value="d">Option 4</option>
+                <option value="e">Option 5</option>
+                <option value="f">Option 6</option>
+                <option value="g">Option 7</option>
+                <option value="h">Option 8</option>
+                <option value="i">Option 9</option>
+                <option value="j">Option 10</option>
+                <option value="k">Option 11</option>
+                <option value="l">Option 12</option>
+                <option value="m">Option 13</option>
+                <option value="n">Option 14</option>
+            </select>
+            <i class="fa fa-user form-control-feedback"></i>
+        </div>
+        <div class="form-group has-feedback">
+            <label class="sr-only" for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="ЭЛЕКТРОННЫЙ АДРЕС ПОЧТЫ" name="email">
+            <i class="fa fa-envelope form-control-feedback"></i>
+        </div>
+        <div class="form-group has-feedback">
+            <label class="sr-only" for="message">Message</label>
+            <textarea class="form-control" rows="8" id="message" placeholder="ПОЖЕЛАНИЯ" name="message" required></textarea>
+            <i class="fa fa-pencil form-control-feedback"></i>
+        </div>
+        <input type="submit" value="Send" class="btn btn-default" name="submit">
+    </form>
+
+    <div id="success">
+  <span>
+    <p>Your message was sent succssfully! I will be in touch as soon as I can.</p>
+  </span>
+    </div>
+
+    <div id="error">
+  <span>
+    <p>Something went wrong, try refreshing and submitting the form again.</p>
+  </span></div>
+</div>
