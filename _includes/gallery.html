@@ -1,106 +1,32 @@
 <div class="container-fluid">
-<div class="row">
-    <div class="col-sm-6">
-        <h2>Produt Title</h2>
-        <p>
-            Lorem ipsum dolor sit amet...
-        </p>
-        <div class="row">
-            <div class="col-sm-6">.col-sm-6</div>
-            <div class="col-sm-6">.col-sm-6</div>
-        </div>
-    </div>
-    <div class="col-sm-6 galleryOpenDiv openGallery1">
-        <img class="galleryOpenImg openGallery1" src="images/hero.jpg" onclick="openPhotoSwipe()">
+  <div class="row">
+
+    <div class="col-sm-6 col-sm-push-6">
+      <h2> Title</h2>
+      <p>
+        Lorem ipsum dolor sit amet...
+      </p>
 
     </div>
-</div>
-</div>
+    <div class="col-sm-6 col-sm-pull-6 galleryOpenDiv openGallery1">
+      <img class="galleryOpenImg openGallery1" src="images/hero.jpg" onclick="openPhotoSwipe()">
 
+    </div>
+  </div>
 
-<section class="cd-single-item">
-
-  <div class="cd-item-info">
-    <h2>Produt Title</h2>
+  <div class="col-sm-6">
+    <h2> Title</h2>
     <p>
       Lorem ipsum dolor sit amet...
     </p>
-    <button class="add-to-cart">
-      Add to cart
-    </button>
+
   </div>
-  
-  <div class="cd-slider-wrapper">
+  <div class="col-sm-6 galleryOpenDiv openGallery1">
+    <img class="galleryOpenImg openGallery1" src="images/hero.jpg" onclick="openPhotoSwipe()">
 
-    <ul class="cd-slider">
-      <li class="selected"><img src="images/hero.jpg" alt="Product Image 1">
-      </li>
-      {% for image in site.data.gallery %}
-      <li><img src="{{ image.src }}">
-      </li>
-      {% endfor %}
-    </ul>
-    <!-- cd-slider -->
-
-    <ul class="cd-slider-navigation">
-      <li>
-        <a href="#0" class="cd-prev inactive">Next</a>
-      </li>
-      <li>
-        <a href="#0" class="cd-next">Prev</a>
-      </li>
-    </ul>
-    <!-- cd-slider-navigation -->
-
-    <a href="#0" class="cd-close">Close</a>
   </div>
-  <!-- cd-slider-wrapper -->
+</div>
 
-  <!-- cd-item-info -->
-</section>
 
-<section class="cd-single-item">
-
-  <div class="cd-item-info reverse">
-    <h2>Produt Title</h2>
-    <p>
-      Lorem ipsum dolor sit amet...
-    </p>
-    <button class="add-to-cart">
-      Add to cart
-    </button>
-  </div>
-
-  <div class="cd-slider-wrapper reverse">
-    <ul class="cd-slider">
-      <li class="selected"><img src="images/hero.jpg" alt="Product Image 1">
-      </li>
-      {% for image in site.data.gallery %}
-      <li><img src="{{ image.src }}">
-      </li>
-      {% endfor %}
-    </ul>
-    <!-- cd-slider -->
-
-    <ul class="cd-slider-navigation">
-      <li>
-        <a href="#0" class="cd-prev inactive">Next</a>
-      </li>
-      <li>
-        <a href="#0" class="cd-next">Prev</a>
-      </li>
-    </ul>
-    <!-- cd-slider-navigation -->
-
-    <a href="#0" class="cd-close">Close</a>
-  </div>
-  <!-- cd-slider-wrapper -->
-
-  <!-- cd-item-info -->
-</section>
-
-<section class="cd-content">
-  <!--  other content here -->
-</section>
 
 {% include photoswipe.html %}

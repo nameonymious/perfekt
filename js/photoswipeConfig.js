@@ -3,16 +3,24 @@ var openPhotoSwipe = function() {
 
     // build items array
     var items = [
-        {
-            src: 'https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg',
-            w: 964,
-            h: 1024
-        },
-        {
-            src: 'https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg',
-            w: 1024,
-            h: 683
-        }
+        { src: 'images/g1/DSC_0561.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0839.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0867.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0914.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0931.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_1004.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0292.jpg', w: 1715, h: 1139 },        
+        { src: 'images/g1/DSC_0653.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0840.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0885.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0922.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0933.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0910.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0864.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0799.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0492.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0930.jpg', w: 1715, h: 1139 },
+        { src: 'images/g1/DSC_0982.jpg', w: 1715, h: 1139 }
     ];
 
     // define options (if needed)
