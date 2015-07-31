@@ -1,13 +1,17 @@
 ---
 ---
 
-@import 'bourbon'; // http://bourbon.io/
+@import 'bourbon';
+// http://bourbon.io/
 
-@import 'variables'; // colors, fonts etc...
+@import 'variables';
+// colors, fonts etc...
 
-@import 'mixins'; // custom mixins
+@import 'mixins';
+// custom mixins
 
-@import 'layout'; // responsive grid and media queries
+@import 'layout';
+// responsive grid and media queries
 
 /* -------------------------------- 
 
@@ -25,13 +29,13 @@ html {
 
 body {
   font: {
-	size: 1.6rem;
-	family: $primary-font; // variables inside partials > _variables.scss
+    size: 1.6rem;
+    family: $primary-font; // variables inside partials > _variables.scss
   }
   color: $color-1;
-  background-color:  $color-2;
+  background-color: $color-2;
 
-    position:relative;
+  position: relative;
 
 }
 
@@ -59,81 +63,90 @@ Main Components
   width: 100%;
   height: 370px;
   text-align: center;
-  
-  & h1{
-  font-size: 59px;
-  top: 243px;
-  position: relative;
-  color: white;
+
+  & h1 {
+    font-size: 59px;
+    top: 243px;
+    position: relative;
+    color: white;
     margin-top: 0px;
-  } 
-   
+  }
+
 }
 
 .filtergrey {
-background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   height: 100%;
 }
+
 //rgb(224, 77, 59) rgb(104, 171, 95) rgb(21, 150, 216)
-    $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
-    @each $current-color in $colors-list {
-    $i: index($colors-list, $current-color);
-    .bgc-#{$i} { 
-       background: $current-color;
-    }
+$colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
+@each $current-color in $colors-list {
+  $i: index($colors-list, $current-color);
+  .bgc-#{$i} {
+    background: $current-color;
+  }
 }
-   
 
-.box{
-//  background: #FFFFFF;
-//  background: rgb(224, 77, 59);
+.box {
+  //  background: #FFFFFF;
+  //  background: rgb(224, 77, 59);
   padding: 20px;
-    margin-top: 20px;
-    
+  margin-top: 20px;
+
   min-height: 360px;
-    color:white;
-    
- 
-& h2{
-  border-bottom: 3px solid #F1F4F9;
-  display: block;
-  margin: 0 0 1.5em 0;
-  padding: 0 0 0.5em;
-//  color: rgb(160, 173, 182);
-    
-  font-size: 20px;
-}
-    
-    li:before {    
-  font-family: 'FontAwesome';
-  content: '\f1d8';
-  padding-right: 10px;
- color: gray;
-}
-    .fa{
-         color: gray;
-    } 
+  color: white;
+
+  & h2 {
+    border-bottom: 3px solid #F1F4F9;
+    display: block;
+    margin: 0 0 1.5em 0;
+    padding: 0 0 0.5em;
+    //  color: rgb(160, 173, 182);
+
+    font-size: 20px;
+  }
+
+  li:before {
+    font-family: 'FontAwesome';
+    content: '\f1d8';
+    padding-right: 10px;
+    color: gray;
+  }
+  .fa {
+    color: gray;
+  }
 
 }
 
+.magisterList {
+  li:before {
+    font-family: 'FontAwesome';
+    content: '\f19d';
+    padding-right: 10px;
+    color: gray;
+  }
+  li {
+    padding-bottom: 10px;
+  }
+}
 
 .departmentContainer {
-   padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
+.blueHeadline {
+  font-size: 18px;
+  color: #0348BC;
+}
 
 @import "gallery";
-
 
 @import "hexagon";
 
 @import "footer";
 
 @import "contact";
-
-
-
-
 
 .align-left {
   text-align: left;

@@ -10,23 +10,23 @@
 
 - key: departments.russian
   color: "#77B3D4"
-  link: #
+  link: /russian.html
   image: images/RUSSIAN.png
   
 - key: departments.natural_history
   color: "#4F5D73"
   image: images/rocket.png
-  link: #
+  link: /laboratory.html
   
 - key: departments.music
   color: "#76C2AF"
   image: images/MUSIC.png
-  link: #
+  link: /music.html
   
 - key: departments.singing
   color: "#F5CF87"
   image: images/SINGING.png
-  link: #
+  link: /singing.html
   
 - key: departments.variety
   color: "#E0E0D1"

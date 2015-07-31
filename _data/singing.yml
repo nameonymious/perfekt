@@ -1,32 +1,37 @@
  -  box1:
-      background: 'bgc-4'
+      background: 'bgc-1'
       items:
             - p:  класс сольного пения
             - p:  5 лет обучения
             - p:  для детей 9-10 лет
  -  box1:
-      background: 'bgc-1'
+      background: 'bgc-2'
       items:
             - p:  класс сольного пения
             - p:  7 лет обучения
             - p:  для детей 7-14 лет
  -  box1:
-      background: 'bgc-1'
+      background: ''
+      items:
+            - p:  ''
+
+ -  box1:
+      background: 'bgc-3'
       items:
             - p:  ранний хор
             - p:  для детей от 1 года жизни до 3 лет
  -  box1:
-      background: 'bgc-1'
+      background: 'bgc-4'
       items:
             - p:  младший хор
             - p:  для детей 3-5 лет
  -  box1:
-      background: 'bgc-1'
+      background: 'bgc-5'
       items:
             - p:  хор подготовительный
             - p:  для детей 5-7 лет
  -  box1:
-      background: 'bgc-1'
+      background: 'bgc-6'
       items:
             - p:  старший хор
             - p:  для детей 7-10 лет
