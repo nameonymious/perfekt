@@ -7,11 +7,11 @@
 
         $('#programs').multiselect({
             enableFiltering: true,
-            filterPlaceholder: 'Search for something...',
+            filterPlaceholder: 'поиск',
             buttonWidth: '100%',
             includeFilterClearBtn: false,
-            nSelectedText: 'ausgewählt',
-            nonSelectedText : 'bitte auswählen',
+            nSelectedText: 'программы выбраны',
+            nonSelectedText : 'пожалуйста, выберите курс (программу)',
             inheritClass: true
         });
 
@@ -26,33 +26,24 @@
             rules: {
                 name: {
                     required: true,
-                    minlength: 2
                 },
                 email: {
                     required: true,
                     email: true
                 },
-                message: {
-                    required: true
-                },
-                answer: {
+                birthDate: {
                     required: true
                 }
             },
             messages: {
                 name: {
-                    required: "come on, you have a name don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "{%t contact.invalid_name %}"
                 },
                 email: {
                     required: "{%t contact.invalid_email %}"
                 },
-                message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
-                },
-                answer: {
-                    required: "sorry, wrong answer!"
+                birthDate: {
+                    required: "{%t contact.invalid_birthDate %}"
                 }
             },
             submitHandler: function(form) {
