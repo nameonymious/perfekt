@@ -304,6 +304,10 @@ xnavigation
     * {
       @include transition(stroke .2s);
     }
+    svg {
+      height: 48px;
+      width: 48px;
+    }
   }
 
   em {

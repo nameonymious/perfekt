@@ -1,0 +1,13 @@
+ -  box1:
+      background: 'bgc-1'
+      items:
+            - p: МАСТЕР-КЛАССЫ ДЛЯ ДЕТЕЙ
+ -  box1:
+      background: 'bgc-2'
+      items:
+            - p: ТВОРЧЕСКИЕ ДНИ РОЖДЕНИЯ
+
+ -  box1:
+      background: 'bgc-3'
+      items:
+            - p:  'ДЕТСКИЕ ПРАЗДНИКИ'

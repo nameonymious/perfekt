@@ -117,6 +117,11 @@ $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
     color: gray;
   }
 
+  .emphasise {
+    color: #464646;
+    font-style: italic;
+  }
+
 }
 
 .magisterList {
@@ -124,6 +129,18 @@ $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
     font-family: 'FontAwesome';
     content: '\f19d';
     padding-right: 10px;
+    color: gray;
+  }
+  li {
+    padding-bottom: 10px;
+  }
+}
+.partyList {
+  li:before {
+    font-family: 'FontAwesome';
+    content: '\f185';
+    padding-right: 10px;
+    padding-left: 10px;
     color: gray;
   }
   li {
