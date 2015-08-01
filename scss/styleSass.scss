@@ -168,3 +168,12 @@ $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
 .align-left {
   text-align: left;
 }
+
+.signature {
+  font-style: oblique;
+  padding-top: 47px;
+  & p {
+    margin-bottom: 0px;
+
+  }
+}

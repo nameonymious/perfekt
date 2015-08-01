@@ -43,5 +43,10 @@
   image: images/EARLY DEVELOPMENT.png
   link: /kidsClub.html
 
+- key: departments.parties
+  color: "#76C2AF"
+  image: images/present.png
+  link: /parties.html
+
 
 
