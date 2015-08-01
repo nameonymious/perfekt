@@ -41,14 +41,11 @@ title: Home
         </div>
         <div class="row">
 
-            <div class="col-md-6">
-                <div class="row">
+
             {% for boxes in site.data.music %}
             {% for box in boxes%}
 
-            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-            {% if thecycle == 'odd' %}
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <div class="box {{ box[1].background}}" style="min-height: 50px ">
 
                     {% for item in box[1].items %}
@@ -75,55 +72,11 @@ title: Home
                     {% endfor %}
                 </div>
             </div>
-            {% endif %}
             {% endfor %}
             {% endfor %}
-                </div>
-            </div>
 
 
-            <div class="col-md-6">
-                <div class="row">
-                    {% for boxes in site.data.music %}
-                    {% for box in boxes%}
-
-                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                    {% if thecycle == 'even' %}
-                    <div class="col-md-12">
-                        <div class="box {{ box[1].background}}" style="min-height: 50px ">
-
-                            {% for item in box[1].items %}
-                            {% for i in item %}
-
-                            {% if i[0] == 'h' %}
-                            <h2 class="heading">{{ i[1] }}</h2>
-                            {% endif %}
-
-                            {% if i[0] == 'p' %}
-                            <p>{{ i[1] }}</p>
-                            {% endif %}
-
-                            {% if i[0] == 'ul' %}
-                            <ul>
-                                {% for li in i[1] %}
-                                <li>
-                                    {{ li }}
-                                </li>
-                                {% endfor %}
-                            </ul>
-                            {% endif %}
-                            {% endfor %}
-                            {% endfor %}
-                        </div>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
-                </div>
-            </div>
-
-
-        </div>
+    </div>
 </div>
 
 
