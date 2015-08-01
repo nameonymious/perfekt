@@ -22,12 +22,25 @@ departments:
     early_development: ДЕТСКИЙ КЛУБ "А И Я"
     parties: ОРГАНИЗАЦИЯ ДЕТСКИХ ПРАЗДНИКОВ
 contact:
-  invalid_email: Bitte eine gültige email adresse eingeben
+  invalid_name: Пожалуйста, введите имя и фамилию
+  invalid_email: Пожалуйста, введите Ваш электронный адрес
+  invalid_birthDate: Пожалуйста, введите дату рождения
+  invalid_message: Пожалуйста, напишите текст сообщения
 german_kids:
   1: Übersetzt
   2: Übersetzt2
   3: Übersetzt3
   4: Übersetzt4
   5: Übersetzt5
-
+programs:
+    german_kids: немецкий язык для детей
+    german_adults: курсы немецкого языка
+    russian: русский язык и литература
+    natural_history: детская научная лаборатория
+    music: музыкальное искусство
+    singing: вокальное искусство
+    variety: эстрадно-джазовое искусство
+    visual_arts: изобразительное искусство
+    early_development: детский клуб "А И Я"
+    parties: организация детских праздников
     

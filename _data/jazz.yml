@@ -1,0 +1,36 @@
+ -  box1:
+      background: 'bgc-1'
+      items:
+            - p: ПОДГОТОВИТЕЛЬНОЕ ОТДЕЛЕНИЕ ДЛЯ ДЕТЕЙ 5-7 ЛЕТ
+ -  box1:
+      background: 'bgc-2'
+      items:
+            - p: ОСНОВНОЕ ОТДЕЛЕНИЕ ДЛЯ ДЕТЕЙ 7 – 14 ЛЕТ
+
+ -  box1:
+      background: ''
+      items:
+            - p:  ''
+
+ -  box1:
+      background: 'bgc-3'
+      items:
+            - p: АНГЛИЙСКИЙ ДЛЯ ДЖАЗА
+
+ -  box1:
+      background: 'bgc-4'
+      items:
+            - p: СПЕЦИАЛЬНОСТЬ
+            - p: музыкальный инструмент или вокал
+
+ -  box1:
+      background: 'bgc-5'
+      items:
+            - p: ДЖАЗОВЫЙ ОРКЕСТР
+            - p: для детей 8-14 лет
+
+ -  box1:
+      background: 'bgc-6'
+      items:
+            - p: ДЖАЗОВЫЕ АНСАМБЛИ
+

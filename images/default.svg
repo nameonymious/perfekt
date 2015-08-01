@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" maskUnits="objectBoundingBox">
+
+	<clipPath id="default">
+    	<path id="svgPath" d="M100,28.735 L100,86.205 50,114.94 0,86.205 0,28.735 50,0 z " />
+	</clipPath>
+
+
+	<clipPath id="headerlogo">
+    	<path id="svgPath" d="M90,25.75 L90,77.25 45,103 0,77.25 0,25.75 45,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h5hres1280">
+    	<path id="svgPath" d="M226,62.5 L226,187.5 113,250 0,187.5 0,62.5 113,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h41280">
+    	<path id="svgPath" d="M290,83.25 L290,249.75 145,333 0,249.75 0,83.25 145,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h31280">
+    	<path id="svgPath" d="M396,113.75 L396,341.25 198,455 0,341.25 0,113.75 198,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h51024">
+    	<path id="svgPath" d="M174,47.5 L174,142.5 87,190 0,142.5 0,47.5 87,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h4hres1024">
+    	<path id="svgPath" d="M226,65 L226,195 113,260 0,195 0,65 113,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h31024">
+    	<path id="svgPath" d="M311,89.5 L311,268.5 155.5,358 0,268.5 0,89.5 155.5,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h5960">
+    	<path id="svgPath" d="M162,45 L162,135 81,180 0,135 0,45 81,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h4hres960">
+    	<path id="svgPath" d="M210,60.25 L210,180.75 105,241 0,180.75 0,60.25 105,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h3960">
+    	<path id="svgPath" d="M290,82.5 L290,247.5 145,330 0,247.5 0,82.5 145,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h5768">
+    	<path id="svgPath" d="M133,38 L133,114 66.5,152 0,114 0,38 66.5,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h4768">
+    	<path id="svgPath" d="M133,38 L133,114 66.5,152 0,114 0,38 66.5,0 z " />
+	</clipPath>
+
+
+
+	<clipPath id="h3hres768">
+    	<path id="svgPath" d="M226,65 L226,195 113,260 0,195 0,65 113,0 z " />
+	</clipPath>
+
+
+
+
+	<clipPath id="hall481">
+    	<path id="svgPath" d="M220,63 L220,189 110,252 0,189 0,63 110,0 z " />
+	</clipPath>
+
+</svg>

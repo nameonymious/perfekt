@@ -10,31 +10,43 @@
 
 - key: departments.russian
   color: "#77B3D4"
+  link: /russian.html
   image: images/RUSSIAN.png
   
 - key: departments.natural_history
   color: "#4F5D73"
   image: images/rocket.png
+  link: /laboratory.html
   
 - key: departments.music
   color: "#76C2AF"
   image: images/MUSIC.png
+  link: /music.html
   
 - key: departments.singing
   color: "#F5CF87"
   image: images/SINGING.png
+  link: /singing.html
   
 - key: departments.variety
   color: "#E0E0D1"
   image: images/VARIETY.png
+  link: /jazz.html
 
 - key: departments.visual_arts
   color: "#77B3D4"
   image: images/PAINTING.png
+  link: /painting.html
 
 - key: departments.early_development
   color: "#4F5D73"
   image: images/EARLY DEVELOPMENT.png
+  link: /kidsClub.html
+
+- key: departments.parties
+  color: "#76C2AF"
+  image: images/present.png
+  link: /parties.html
 
 
 

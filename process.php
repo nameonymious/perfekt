@@ -1,6 +1,8 @@
 <?php
 $to_email = "office@studentguide.at";
 
+
+
 if ($_POST) {
 	header('Access-Control-Allow-Origin: *'); 
 	$parameters = "" ;
@@ -18,7 +20,10 @@ if ($_POST) {
 				$parameters = $parameters . $key. " - ".$value."\n";
 			}				
 		}
-	}  
+	}
+
+	$req_dump = print_r( $_REQUEST, true );
+	$fp = file_put_contents( 'request.log', "\xEF\xBB\xBF". $parameters."\n", FILE_APPEND );
 	
 
 	$send_mail = mail_utf8 ( $to_email, 'studentguide.at', $_POST .
