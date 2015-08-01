@@ -3,7 +3,7 @@
     -ms-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     -moz-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#default)
+    clip-path: url(../images/default.svg)
 }
 .hexagon.text {
     color: #fff;
@@ -112,6 +112,7 @@
 .hex .vc_icon_element-size-xl .vc_icon_element-icon {
     font-size: 5em
 }
+/*
 @media (min-width: 1280px) {
     .hexres,
     .hex5,
@@ -156,6 +157,7 @@
         margin-left: 228px !important
     }
 }
+/*
 @media (min-width: 1024px) and (max-width: 1279px) {
     .hexres,
     .hex5,
@@ -200,6 +202,52 @@
         margin-left: 186px !important
     }
 }
+*/
+@media (min-width: 1024px) /*and (max-width: 1279px) /*/{
+  .hexres,
+  .hex5,
+  .hex4,
+  .hex3 {
+    width: 1024px
+  }
+  .hex5 li {
+    width: 174px;
+    height: 190px;
+    margin-bottom: -26px;
+    clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h51024)
+  }
+  div:not(.referenzen).hex5 li:nth-child(1),
+  div:not(.referenzen).hex5 li:nth-child(9n+1) {
+    margin-left: 117px !important
+  }
+  .hex.referenzen .new-row {
+    margin-left: 117px !important
+  }
+  .hexres li,
+  .hex4 li {
+    width: 226px;
+    height: 260px;
+    margin-bottom: -42px;
+    clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h4hres1024)
+  }
+  div:not(.referenzen).hexres li:nth-child(1),
+  div:not(.referenzen).hexres li:nth-child(7n+1),
+  div:not(.referenzen).hex4 li:nth-child(1),
+  div:not(.referenzen).hex4 li:nth-child(7n+1) {
+    margin-left: 143px !important
+  }
+  .hex3 li {
+    width: 311px;
+    height: 358px;
+    margin-bottom: -68px;
+    clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h31024)
+  }
+  .hex3 li:nth-child(1),
+  .hex3 li:nth-child(5n+1) {
+    margin-left: 186px !important
+  }
+}
+
 @media (min-width: 960px) and (max-width: 1023px) {
     .hexres,
     .hex5,
@@ -288,7 +336,7 @@
     }
     .hexres {
         width: 740px;
-        margin-left: 15px
+        //margin-left: 15px
     }
     .hexres li,
     .hex3 li {

@@ -32,7 +32,7 @@ german_kids:
   3: Übersetzt3
   4: Übersetzt4
   5: Übersetzt5
-program:
+programs:
     german_kids: немецкий язык для детей
     german_adults: курсы немецкого языка
     russian: русский язык и литература

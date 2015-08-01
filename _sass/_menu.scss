@@ -405,6 +405,7 @@ xshadow layer
     opacity: 1;
     visibility: visible;
     @include transition(opacity $animation-duration 0s, visibility 0s 0s);
+    z-index: 3;
   }
 }
 

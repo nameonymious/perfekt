@@ -7,10 +7,10 @@
         </div>
         <div class="form-group has-feedback">
 
-        <label class="sr-only" for="birthDate">дата рождения</label>
-        <input  id="datepicker" type="text" class="form-control" id="birthDate" placeholder="дата рождения" name="birthDate">
-        <i class="fa fa-calendar  form-control-feedback"></i>
-    </div>
+            <label class="sr-only" for="birthDate">дата рождения</label>
+            <input id="datepicker" type="text" class="form-control" id="birthDate" placeholder="дата рождения" name="birthDate">
+            <i class="fa fa-calendar  form-control-feedback"></i>
+        </div>
         <div class="form-group has-feedback">
             <label class="sr-only" for="languages">владение языками</label>
             <input type="text" class="form-control" id="languages" placeholder="владение языками" name="languages">
@@ -33,21 +33,11 @@
         </div>
         <div class="form-group has-feedback">
             <label class="sr-only" for="programs">выбранный курс (программа)</label>
-            <select  class="form-control align-left" id="programs" name="programs[]" placeholder="выбранный курс (программа)" multiple="multiple">
-                <option value="a">Option 1</option>
-                <option value="b">Option 2</option>
-                <option value="c">Option 3</option>
-                <option value="d">Option 4</option>
-                <option value="e">Option 5</option>
-                <option value="f">Option 6</option>
-                <option value="g">Option 7</option>
-                <option value="h">Option 8</option>
-                <option value="i">Option 9</option>
-                <option value="j">Option 10</option>
-                <option value="k">Option 11</option>
-                <option value="l">Option 12</option>
-                <option value="m">Option 13</option>
-                <option value="n">Option 14</option>
+            <select class="form-control align-left" id="programs" name="programs[]" placeholder="выбранный курс (программа)" multiple="multiple">
+                {% for department in site.data.programs %}
+
+                <option value="{% t department.key %}">{% t department.key %}</option>
+                {% endfor %}
             </select>
             <i class="fa fa-graduation-cap form-control-feedback"></i>
         </div>
