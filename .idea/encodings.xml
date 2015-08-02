@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/_data/jazz.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_data/kidsClub.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_data/laboratory.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_data/music.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_data/painting.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_data/parties.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_data/russian.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_data/singing.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_includes/menu.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_includes/registrationForm.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_includes/validateRegistration.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_layouts/site.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/departments.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/germanForKids.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/process.php" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

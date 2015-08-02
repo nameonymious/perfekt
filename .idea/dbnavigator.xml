@@ -168,6 +168,7 @@
           <content-type name="PL/SQL" enabled="true" />
           <content-type name="JPA QL" enabled="true" />
           <content-type name="JavaScript" enabled="true" />
+          <content-type name="PHP" enabled="true" />
           <content-type name="JSP" enabled="true" />
           <content-type name="JSPx" enabled="true" />
           <content-type name="Groovy" enabled="true" />
