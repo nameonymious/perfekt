@@ -50,6 +50,7 @@
     @include center; // mixin inside partials > _mixins.scss
     width: 32px;
     height: 3px;
+    & * {stroke: #ffffff;}
     background-color: darken($color-2, 40%);
 
     &::before, &:after {
@@ -303,10 +304,12 @@ xnavigation
 
     * {
       @include transition(stroke .2s);
+      stroke: #ffffff;
     }
     svg {
       height: 48px;
       width: 48px;
+      stroke: #ffffff;
     }
   }
 

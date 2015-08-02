@@ -36,7 +36,7 @@
             <select class="form-control align-left" id="programs" name="programs[]" placeholder="выбранный курс (программа)" multiple="multiple">
                 {% for department in site.data.programs %}
 
-                <option value="{% t department.key %}">{% t department.key %}</option>
+                <option value="{{ department.key }}">{{ department.key }}</option>
                 {% endfor %}
             </select>
             <i class="fa fa-graduation-cap form-control-feedback"></i>

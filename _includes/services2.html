@@ -5,7 +5,7 @@
 <p>blabla</p>
 </div>
 </div> -->
-<div style="max-width: 1280px;">
+<div style="max-width: 1280px; margin-left: auto; margin-right: auto">
 <div class="hex hexres">
   <ul style="overflow: hidden">
     <!-- <li class="hexagon">
@@ -14,11 +14,11 @@
 
 {% for department in site.data.departments %}
     <li class="hexagon text " style="background-color: {{ department.color }};">
-      <a href="{{department.link}}" title="{% t departments.german_kids %}" > <img class="hexIcon" src="{{ department.image }}" />
+      <a href="{{department.link}}" title="{{ departments.german_kids }}" > <img class="hexIcon" src="{{ department.image }}" />
       <div class="wrap">
         <div class="hexcontent">
           <div class="hextitle">
-            {% t department.key %}
+            {{ department.key }}
           </div>
         </div>
       </div> </a>
