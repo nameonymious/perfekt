@@ -3,80 +3,33 @@ layout: site
 title: Home
 ---
 
-<div class="textImage" style=" background: url(images/g1/DSC_0867.jpg) 50% 50% / cover ;">
+<div class="textImage" style=" background: url(images/g1/r.jpg) 50% 50% / cover ;">
     <div class="filtergrey">
-        <h1>ЭСТРАДНО-ДЖАЗОВОЕ ИСКУССТВО</h1>
+        <h1>РУССКИЙ ЯЗЫК И ЛИТЕРАТУРА</h1>
     </div>
 </div>
 <br>
-
 <div class="container departmentContainer">
     <div class="row">
 
         <div class="col-md-6">
-            <div class="box bgc-1" style="color: #4A4A4A;background-color: rgba(255, 255, 255, 0);">
+            <a href="russian1.html" class="boxLink">
+                <div class="box bgc-1">
+                    <h2 class="heading">ПОДГОТОВИТЕЛЬНЫЙ КУРС ДЛЯ ДЕТЕЙ 5-7 ЛЕТ</h2>
 
-                <p>если вы хотите обучить своего ребенка русскому языку, то эта программа для вас!</p>
-
-                <p>программа «шаг за шагом» – специальная методика непрерывного обучения детей грамоте, русскому языку, литературному чтению, риторике. </p>
-
-                <p>программа функционирует в составе 1-9 классов.</p>
-
-                <p>на занятиях формируется элементарная лингвистическая компетенция и развиваются все виды речевой деятельности, учебно-языковые, речевые и правописные умения и навыки, необходимые для
-                    того, чтобы правильно, точно и выразительно говорить, читать и писать на русском языке.</p>
-
-                <p>предметы:s</p>
-                <ul>
-                    <li> русский язык</li>
-                    <li> искусство речи</li>
-                    <li> литература</li>
-                </ul>
-                <p>для прохождения курса есть вся необходимая учебная литература, предоставляются уникальные материалы, включающие упражнения, практические задания для детей. </p>
-
-                <p>приглашаем всех, кто предъявляет высокие требования к обучению.</p>
-
-            </div>
-        </div>
-        <div class="col-md-6">
-
-            {% for boxes in site.data.russian %}
-            {% for box in boxes%}
-            <div class="col-md-12">
-                <div class="box {{ box[1].background}}" style="min-height: 50px ">
-
-                    {% for item in box[1].items %}
-                    {% for i in item %}
-
-                    {% if i[0] == 'h' %}
-                    <h2 class="heading">{{ i[1] }}</h2>
-                    {% endif %}
-
-                    {% if i[0] == 'p' %}
-                    <p>{{ i[1] }}</p>
-                    {% endif %}
-
-                    {% if i[0] == 'em' %}
-                    <p class="emphasise">{{ i[1] }}</p>
-                    {% endif %}
-
-                    {% if i[0] == 'ul' %}
-                    <ul>
-                        {% for li in i[1] %}
-                        <li>
-                            {{ li }}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
                 </div>
-            </div>
-            {% endfor %}
-            {% endfor %}
-
+            </a>
         </div>
-    </div>
-</div>
 
+        <div class="col-md-6">
+            <a href="russian2.html" class="boxLink">
+                <div class="box bgc-3">
+
+                    <h2 class="heading">РУССКИЙ ЯЗЫК И ЛИТЕРАТУРА ДЛЯ ДЕТЕЙ С 1 ПО 9 КЛАССЫ</h2>
+
+                </div>
+            </a>
+        </div>
+
+    </div>
 </div>

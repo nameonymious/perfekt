@@ -66,12 +66,23 @@ Main Components
   height: 370px;
   text-align: center;
 
+
   & h1 {
-    font-size: 59px;
+    font-size: 35px;
     top: 243px;
     position: relative;
     color: white;
     margin-top: 0px;
+  }
+    & h1 {
+
+      @include MQ(M) {
+        font-size: 59px;
+      top: 243px;
+      position: relative;
+      color: white;
+      margin-top: 0px;
+    }
   }
 
 }
