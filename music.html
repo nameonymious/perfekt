@@ -3,148 +3,83 @@ layout: site
 title: Home
 ---
 
-<div class="textImage" style=" background: url(images/g1/DSC_0867.jpg) 50% 50% / cover ;">
+<div class="textImage" style=" background: url(images/g1/music.jpg) 50% 50% / cover ;">
     <div class="filtergrey">
-        <h1>ИЗОБРАЗИТЕЛЬНОЕ ИСКУССТВО </h1>
+        <h1>МУЗЫКАЛЬНОЕ ИСКУССТВО/h1>
     </div>
 </div>
 <br>
-
 <div class="container departmentContainer">
     <div class="row">
 
-        <div class="col-md-7">
-                          <p>несмотря на то, что ребёнок фальшиво поёт песни, и слуха у него нет; несмотря на то, что пианино некуда поставить, и бабушка не может возить ребёнка «на музыку»; несмотря на то, что ребёнку вообще некогда – английский, испанский, секция по плаванию, балет и прочее... </p>
-                <p>есть веские причины всё это преодолеть и всё-таки учить музыке.</p>
-                <p> эти причины должны знать современные родители:</p>
-                <p>1.	играть – это следовать традиции. музыке учили всех аристократов: русских и европейских. </p>
-                <p>2.	музыкальные занятия воспитывают волю и дисциплину. </p>
-                <p>3.	занимаясь музыкой, ребёнок развивает математические способности. альберт эйнштейн играл на скрипке, а профессора физики и профессора математики оксфорда составляют 70% членов университетского музыкального клуба. </p>
-                <p>4.	играющие и поющие лучше говорят и пишут, легче запоминают иностранные слова, быстрее усваивают грамматику. </p>
-            <p>5.	 музыкальные занятия развивают навыки общения. </p>
-        </div>
-            <div class="col-md-5">
+        <div class="col-md-4 col-sm-6">
+            <a href="music1.html" class="boxLink music">
+                <div class="box bgc-1">
+                    <h2 class="heading">КУРС РАННЕГО
+                        МУЗЫКАЛЬНОГО РАЗВИТИЯ
+                        ДЛЯ ДЕТЕЙ ОТ 1 ГОДА ДО 2 ЛЕТ</h2>
 
-                <p class="blueHeadline">программа представляет собой оригинальную разработку системы развития музыкальных способностей детей от 1 года жизни до 15 лет. </p>
-                <ul class="magisterList">
-                <li> группа раннего музыкального развития для детей от 1 года до 3 лет</li>
-                <li> младшая группа музыкального развития для детей от 3 до 5 лет</li>
-                <li> «музыкальное искусство и игра на инструментах» для детей от 5 до 15 лет</li>
-                <li> детский ансамбль мажореток -  барабанщиц для девочек 5-9 лет</li>
-                </ul>
-                <p>зачисление детей производится на основании заявления родителей. </p>
-                <p>принимаются все желающие, без проведения приёмных испытаний.</p>
-
-
-
-        </div>
-        </div>
-        <div class="row">
-
-
-            {% for boxes in site.data.music %}
-            {% for box in boxes%}
-
-            <div class="col-md-6">
-                <div class="box {{ box[1].background}}" style="min-height: 50px ">
-
-                    {% for item in box[1].items %}
-                    {% for i in item %}
-
-                    {% if i[0] == 'h' %}
-                    <h2 class="heading">{{ i[1] }}</h2>
-                    {% endif %}
-
-                    {% if i[0] == 'p' %}
-                    <p>{{ i[1] }}</p>
-                    {% endif %}
-
-                    {% if i[0] == 'ul' %}
-                    <ul>
-                        {% for li in i[1] %}
-                        <li>
-                            {{ li }}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
                 </div>
-            </div>
-            {% endfor %}
-            {% endfor %}
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href="music2.html" class="boxLink music">
+                <div class="box bgc-2">
+                    <h2 class="heading">
+                        КУРС РАННЕГО
+                        МУЗЫКАЛЬНОГО РАЗВИТИЯ
+                        ДЛЯ ДЕТЕЙ ОТ 2 ДО 3 ЛЕТ
+</h2>
+
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href="music3.html" class="boxLink music">
+                <div class="box bgc-3">
+                    <h2 class="heading">
+                        КУРС МУЗЫКАЛЬНОГО РАЗВИТИЯ
+                        ДЛЯ ДЕТЕЙ 3-5 ЛЕТ
+</h2>
+
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href="music4.html" class="boxLink music">
+                <div class="box bgc-4">
+                    <h2 class="heading">
+                        ПОДГОТОВИТЕЛЬНЫЙ КУРС
+                        ДЛЯ ДЕТЕЙ 5-7 ЛЕТ
+</h2>
+
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href="music5.html" class="boxLink music">
+                <div class="box bgc-5">
+                    <h2 class="heading">
+                        МУЗЫКАЛЬНО-ИНСТРУМЕНТАЛЬНЫЙ КУРС
+</h2>
+
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href="music6.html" class="boxLink music">
+                <div class="box bgc-6">
+                    <h2 class="heading">
+                        КУРС
+                        БАРАБАНЩИЦ-МАЖОРЕТОК
+                        ДЛЯ ДЕВОЧЕК 6-10 ЛЕТ
+</h2>
+
+                </div>
+            </a>
+        </div>
+
 
 
     </div>
-
-
-
 </div>
-
-<section id="pricing-table">
-    <div class="container">
-        <div class="row">
-            <div class="pricing">
-                <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="pricing-table">
-                        <div class="pricing-header">
-                            <p class="pricing-title">Free Plan</p>
-                            <p class="pricing-rate"><sup>$</sup> 0 <span>/Mo.</span></p>
-                            <a href="#" class="btn btn-custom">And Get Free Month</a>
-                        </div>
-
-                        <div class="pricing-list">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i>1,000 messages</li>
-                                <li><i class="fa fa-signal"></i><span>limited</span> data</li>
-                                <li><i class="fa fa-user"></i><span>limited</span> users</li>
-                                <li><i class="fa fa-smile-o"></i>first 10 day free</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="pricing-table">
-                        <div class="pricing-header">
-                            <p class="pricing-title">Business Plan</p>
-                            <p class="pricing-rate"><sup>$</sup> 20 <span>/Mo.</span></p>
-                            <a href="#" class="btn btn-custom">And Get Free Month</a>
-                        </div>
-
-                        <div class="pricing-list">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i>10,000 messages</li>
-                                <li><i class="fa fa-signal"></i><span>unlimited</span> data</li>
-                                <li><i class="fa fa-user"></i><span>unlimited</span> users</li>
-                                <li><i class="fa fa-smile-o"></i>first 10 day free</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="pricing-table">
-                        <div class="pricing-header">
-                            <p class="pricing-title">Extended Plan</p>
-                            <p class="pricing-rate"><sup>$</sup> 80 <span>/Mo.</span></p>
-                            <a href="#" class="btn btn-custom">And Get Free Month</a>
-                        </div>
-
-                        <div class="pricing-list">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i>10,0000 messages</li>
-                                <li><i class="fa fa-signal"></i><span>unlimited</span> data</li>
-                                <li><i class="fa fa-user"></i><span>unlimited</span> users</li>
-                                <li><i class="fa fa-smile-o"></i>first 10 day free</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
