@@ -3,9 +3,9 @@ layout: site
 title: Home
 ---
 
-<div class="textImage" style=" background: url(images/g1/DSC_0867.jpg) 50% 50% / cover ;">
+<div class="textImage" style=" background: url(images/g1/DSC_0002.jpeg) 50% 50% / cover">
     <div class="filtergrey">
-        <h1> Deutsch </h1>
+        <h1> НЕМЕЦКИЙ ДЛЯ ДЕТЕЙ </h1>
     </div>
 </div>
 <br>
@@ -13,38 +13,24 @@ title: Home
 <div class="container departmentContainer">
     <div class="row">
 
-        {% for boxes in site.data.german_kids %}
-        {% for box in boxes%}
         <div class="col-md-6">
-            <div class="box {{ box[1].background}}">
+            <a href="stepForStep1.html" class="boxLink">
+            <div class="box bgc-1">
+                <h2 class="heading">SCHRITT FÜR SCHRITT 1</h2>
 
-                {% for item in box[1].items %}
-                {% for i in item  %}
- 
-                {% if i[0] == 'h' %}
-                <h2 class="heading">{{ i[1] }}</h2>
-                {% endif %}
-
-                {% if i[0] == 'p' %}
-                <p>{{  i[1] }}</p>
-                {% endif %}
-
-                {% if i[0] == 'ul' %}
-                <ul>
-                    {% for li in i[1] %}
-                    <li>
-                        {{  li }}
-                    </li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-                {% endfor %}
-                {% endfor %}
             </div>
+            </a>
         </div>
-        {% endfor %}
-        {% endfor %}
 
+        <div class="col-md-6">
+            <a href="#" class="boxLink">
+            <div class="box bgc-3">
+
+                <h2 class="heading">SCHRITT FÜR SCHRITT 2</h2>
+
+            </div>
+            </a>
+        </div>
 
     </div>
 </div>

@@ -13,6 +13,8 @@
 @import 'layout';
 // responsive grid and media queries
 
+@import 'pricingBox';
+
 /* -------------------------------- 
 
 Primary style
@@ -176,4 +178,65 @@ $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
     margin-bottom: 0px;
 
   }
+}
+
+.boxLink {
+  &:focus, &:hover {
+    text-decoration: none;
+  }
+
+  .box {
+    //min-height: 30px;
+    padding-top: 148px;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.infoBox {
+
+  h1,
+  h1 a,
+
+  h1 a:visited { font-family: Georgia, arial, serif; font-size: 38px; }
+  h1 a,
+
+  h1 a:visited { color: #605833; font-family: Georgia, arial, serif; }
+
+  h1 a:hover { color: #92864d; text-decoration: none; }
+  a,
+
+  a:visited { font-family: Enriqueta; font-size: 16px; color: #92864d; text-decoration: none; }
+
+  a:hover { text-decoration: underline }
+
+  p { color: #605833; font-family: Enriqueta; font-size: 16px; padding: 5px 0; }
+
+  .post-info { border-top: 1px dashed #70673b; border-bottom: 1px dashed #70673b; font-size: 13px; margin: 15px 0 15px; padding: 3px; text-transform: uppercase; color: #bfb585; }
+
+  a.read-more { background-color: #605833; border-radius: 5px 5px 5px 5px; color: white; float: right; font-family: Enriqueta,Arial,sans-serif; text-transform: uppercase; font-size: 16px; padding: 3px 10px; }
+
+  a.read-more:hover { background-color: #92864d; border-radius: 5px 5px 5px 5px; text-decoration: none; }
+
+  ul {
+    text-align: CENTER;
+  }
+}
+
+.infoBox2{
+h1 { color: #d04764; font-family: 'Lobster', cursive; font-size: 36px; font-weight: normal; line-height: 48px; margin: 0 0 18px; text-shadow: 1px 0 0 #fff; }
+
+h2 { color: #2CA4B0; font-family: 'Oleo Script', cursive; font-size: 24px; font-weight: normal; line-height: 32px; margin: 0 0 18px; text-shadow: 1px 0 0 #fff; }
+
+p { color: #333; font-family: 'Original Surfer', cursive; font-size: 16px; line-height: 28px; margin: 0 0 24px; }
+
+a { color: #d04764; font-family: 'Original Surfer', cursive; }
+
+a:hover { text-decoration: underline }
+
+
+
 }

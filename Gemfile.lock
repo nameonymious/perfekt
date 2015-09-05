@@ -68,7 +68,6 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
-    wdm (0.1.1)
     yajl-ruby (1.1.0)
     yajl-ruby (1.1.0-x86-mingw32)
 
@@ -80,7 +79,3 @@ DEPENDENCIES
   bourbon
   jekyll
   jekyll-multiple-languages-plugin
-  wdm (~> 0.1.0)
-
-BUNDLED WITH
-   1.10.5
