@@ -43,10 +43,29 @@
   image: images/EARLY DEVELOPMENT.png
   link: /kidsClub.html
 
-- key: departments.parties
-  color: "#76C2AF"
-  image: images/present.png
-  link: /parties.html
+- key: departments.polyglot
+  color: "#4F5D73"
+  image: images/EARLY DEVELOPMENT.png
+  link: /polyglot.html
+
+- key: departments.majoretten
+  color: "#4F5D73"
+  image: images/EARLY DEVELOPMENT.png
+  link: /majoretten.html
+
+- key: departments.tours
+  color: "#4F5D73"
+  image: images/EARLY DEVELOPMENT.png
+  link: /tours.html
+
+
+- key: departments.counseling
+  color: "#4F5D73"
+  image: images/EARLY DEVELOPMENT.png
+  link: /counseling.html
+
+
+
 
 
 

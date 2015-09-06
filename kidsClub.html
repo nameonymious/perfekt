@@ -3,72 +3,52 @@ layout: site
 title: Home
 ---
 
-<div class="textImage" style=" background: url(images/g1/DSC_0867.jpg) 50% 50% / cover ;">
+<div class="textImage" style=" background: url(images/razvivaiushchie-zaniatiia-dlia-detei-2-—-3-let.jpg) 50% 30% / cover">
     <div class="filtergrey">
-        <h1>ДЕТСКИЙ КЛУБ "А" И "Я"</h1>
+        <h1>
+            ДЕТСКИЙ КЛУБ "А" И "Я"
+        </h1>
     </div>
 </div>
 <br>
-
 <div class="container departmentContainer">
     <div class="row">
 
-        <div class="col-md-6">
-            <div class="box bgc-1" style="color: #4A4A4A;background-color: rgba(255, 255, 255, 0);">
+        <div class="col-sm-4">
+            <a href="kidsClub1.html" class="boxLink music">
+                <div class="box bgc-1">
+                    <h2 class="heading">
+                        КУРС "А" ДЛЯ ДЕТЕЙ 1-2 ЛЕТ
 
-                <p>Вашему малышу необходимо общение со сверстниками, но вы не хотите, чтобы он находился в детском садике с утра до вечера?</p>
+                    </h2>
 
-                <p>Удачным решением может стать ДЕТСКИЙ КЛУБ.</p>
-
-                <p>Программа «А И Я» – это комплексная развивающая система занятий с ребенком от 1 года жизни до 7 лет.</p>
-
-                <p>Сказки, подвижные игры и творчество - яркие интересные занятия, направленные на развитие психомоторной, сенсорной, мыслительной, речевой и других сфер.</p>
-
-                <p>В итоге - отличные результаты.</p>
-
-                <p>Начало программы – 14 сентября 2015 года.</p>
-                <p>Продолжительность курса - 10 месяцев.</p>
-
-                <p>Посещение курса - 1 раз в неделю.</p>
-
-            </div>
-        </div>
-        <div class="col-md-6">
-
-            {% for boxes in site.data.kidsClub %}
-            {% for box in boxes%}
-            <div class="col-md-12">
-                <div class="box {{ box[1].background}}" style="min-height: 50px ">
-
-                    {% for item in box[1].items %}
-                    {% for i in item %}
-
-                    {% if i[0] == 'h' %}
-                    <h2 class="heading">{{ i[1] }}</h2>
-                    {% endif %}
-
-                    {% if i[0] == 'p' %}
-                    <p>{{ i[1] }}</p>
-                    {% endif %}
-
-                    {% if i[0] == 'ul' %}
-                    <ul>
-                        {% for li in i[1] %}
-                        <li>
-                            {{ li }}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
                 </div>
-            </div>
-            {% endfor %}
-            {% endfor %}
-
+            </a>
         </div>
-    </div>
-</div>
 
+        <div class="col-sm-4">
+            <a href="kidsClub2.html" class="boxLink music">
+                <div class="box bgc-2">
+                    <h2 class="heading">
+                        КУРС "А" ДЛЯ ДЕТЕЙ 2-3 ЛЕТ
+
+                    </h2>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm-4">
+            <a href="kidsClub3.html" class="boxLink music">
+                <div class="box bgc-3">
+                    <h2 class="heading">
+                        КУРС "А" ДЛЯ ДЕТЕЙ 3-5 ЛЕТ
+
+                    </h2>
+
+                </div>
+            </a>
+        </div>
+
+    </div>
 </div>

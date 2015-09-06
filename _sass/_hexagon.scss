@@ -34,8 +34,8 @@
     padding: 0 5px
 }
 .hextitle {
-    font-size: 18px;
-    margin: 3px 0 5px;
+    font-size: 17px;
+    margin: 0px 0 5px;
     text-align: center;
     display: inline-block;
     text-transform: uppercase;
@@ -112,52 +112,9 @@
 .hex .vc_icon_element-size-xl .vc_icon_element-icon {
     font-size: 5em
 }
-/*
-@media (min-width: 1280px) {
-    .hexres,
-    .hex5,
-    .hex4,
-    .hex3 {
-        width: 1280px
-    }
-    .hexres li,
-    .hex5 li {
-        width: 226px;
-        height: 250px;
-        margin-bottom: -38px;
-        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h5hres1280)
-    }
-    div:not(.referenzen).hexres li:nth-child(1),
-    div:not(.referenzen).hexres li:nth-child(9n+1),
-    div:not(.referenzen).hex5 li:nth-child(1),
-    div:not(.referenzen).hex5 li:nth-child(9n+1) {
-        margin-left: 143px !important
-    }
-    .hex.referenzen .new-row {
-        margin-left: 143px !important
-    }
-    .hex4 li {
-        width: 290px;
-        height: 333px;
-        margin-bottom: -55px;
-        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h41280)
-    }
-    div:not(.referenzen).hex4 li:nth-child(1),
-    div:not(.referenzen).hex4 li:nth-child(7n+1) {
-        margin-left: 175px !important
-    }
-    .hex3 li {
-        width: 396px;
-        height: 455px;
-        margin-bottom: -89px;
-        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h31280)
-    }
-    div:not(.referenzen).hex3 li:nth-child(1),
-    div:not(.referenzen).hex3 li:nth-child(5n+1) {
-        margin-left: 228px !important
-    }
-}
-/*
+
+
+
 @media (min-width: 1024px) and (max-width: 1279px) {
     .hexres,
     .hex5,
@@ -202,7 +159,7 @@
         margin-left: 186px !important
     }
 }
-*/
+
 @media (min-width: 1024px) /*and (max-width: 1279px) /*/{
   .hexres,
   .hex5,
@@ -298,6 +255,13 @@
     .hex3 .new-row {
         margin-left: 175px !important
     }
+
+    .hexIcon {
+        margin-top: 12px;
+    }
+    .hextitle{
+        font-size: 12px;
+    }
 }
 @media (min-width: 768px) and (max-width: 959px) {
     .hexres,
@@ -355,6 +319,13 @@
     .hexres .new-row,
     .hex3 .new-row {
         margin-left: 133px !important
+    }
+    .hextitle {
+        font-size: 11px;
+        margin: 0px 0 5px;
+    }
+    .hexIcon {
+        margin-top: 8px;
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -457,5 +428,50 @@
     }
     .hexagon.empty {
         display: none
+    }
+}
+
+@media (min-width: 1280px) {
+    .hexres,
+    .hex5,
+    .hex4,
+    .hex3 {
+        width: 1280px
+    }
+    .hexres li,
+    .hex5 li {
+        width: 226px;
+        height: 250px;
+        margin-bottom: -38px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h5hres1280)
+    }
+    div:not(.referenzen).hexres li:nth-child(1),
+    div:not(.referenzen).hexres li:nth-child(9n+1),
+    div:not(.referenzen).hex5 li:nth-child(1),
+    div:not(.referenzen).hex5 li:nth-child(9n+1) {
+        margin-left: 143px !important
+    }
+    .hex.referenzen .new-row {
+        margin-left: 143px !important
+    }
+    .hex4 li {
+        width: 290px;
+        height: 333px;
+        margin-bottom: -55px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h41280)
+    }
+    div:not(.referenzen).hex4 li:nth-child(1),
+    div:not(.referenzen).hex4 li:nth-child(7n+1) {
+        margin-left: 175px !important
+    }
+    .hex3 li {
+        width: 396px;
+        height: 455px;
+        margin-bottom: -89px;
+        clip-path: url(/wp-content/themes/pixelsmart/images/clip.svg.php#h31280)
+    }
+    div:not(.referenzen).hex3 li:nth-child(1),
+    div:not(.referenzen).hex3 li:nth-child(5n+1) {
+        margin-left: 228px !important
     }
 }

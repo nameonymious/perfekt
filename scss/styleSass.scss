@@ -137,6 +137,18 @@ $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
 
 }
 
+.circleList {
+  li:before {
+    font-family: 'FontAwesome';
+    content: '\f1db';
+    padding-right: 10px;
+    color: gray;
+  }
+  li {
+    padding-bottom: 10px;
+  }
+}
+
 .magisterList {
   li:before {
     font-family: 'FontAwesome';
@@ -148,6 +160,7 @@ $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
     padding-bottom: 10px;
   }
 }
+
 .partyList {
   li:before {
     font-family: 'FontAwesome';
@@ -215,6 +228,7 @@ $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
       font-size: 22px;
       text-align: center;
     }
+
   }
 }
 
