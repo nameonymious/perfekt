@@ -22,7 +22,7 @@
 
 .hexIcon{
          height: 50%;
-    margin-top: 20px;
+    margin-top: 7px;
 }
 .hexcontent {
     position: relative;
@@ -158,9 +158,12 @@
     .hex3 li:nth-child(5n+1) {
         margin-left: 186px !important
     }
+    .hextitle{
+        font-size: 15px;
+    }
 }
-
-@media (min-width: 1024px) /*and (max-width: 1279px) /*/{
+/*
+@media (min-width: 1024px) /*and (max-width: 1279px) /*//*{
   .hexres,
   .hex5,
   .hex4,
@@ -204,7 +207,7 @@
     margin-left: 186px !important
   }
 }
-
+*/
 @media (min-width: 960px) and (max-width: 1023px) {
     .hexres,
     .hex5,
