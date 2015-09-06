@@ -120,7 +120,8 @@ xnavigation
   top: 0;
   right: 0;
   width: 80%;
-  //height: 100%;
+ height: 100%;
+  //height: 100vh;
   overflow-y: auto;
   background-color: $color-7;
 
@@ -217,7 +218,7 @@ xnavigation
   li {
     @include column(.5);
     /* 68px is the navigation header height  and the menu items will be allocated in 3 rows */
-    height: calc((100vh - 68px)/3);
+    height: calc((100vh - 78px)/3);
     min-height: 120px;
     border: 1px solid $color-7;
     border-top: none;
@@ -324,8 +325,8 @@ xnavigation
 
     li {
       /* 116px is the navigation header height and the menu items will be allocated in 3 rows */
-      height: calc((100vh - 116px)/4);
-      min-height: 200px;
+      height: calc((100vh - 126px)/3);
+     // min-height: 200px;
     }
 
     span {
@@ -421,7 +422,7 @@ xcontent
 
 main {
   position: relative;
-  //height: 100vh;
+
   overflow-x: hidden;
   @include transition(transform $animation-duration);
   box-shadow: 0 0 30px darken($color-2, 20%);
