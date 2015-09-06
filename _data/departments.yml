@@ -4,7 +4,7 @@
   link: /germanForKids.html
 
 - key: departments.german_adults
-  color: "#E0E0D1"
+  color: "#76C2AF"
   image: images/GERMAN.png
   link: /germanForAdults.html
 
@@ -29,7 +29,7 @@
   link: /singing.html
   
 - key: departments.variety
-  color: "#E0E0D1"
+  color: "#77B3D4"
   image: images/VARIETY.png
   link: /jazz.html
 
@@ -44,24 +44,24 @@
   link: /kidsClub.html
 
 - key: departments.polyglot
-  color: "#4F5D73"
-  image: images/EARLY DEVELOPMENT.png
+  color: "#F5CF87"
+  image: images/polyglott.png
   link: /polyglot.html
 
 - key: departments.majoretten
-  color: "#4F5D73"
-  image: images/EARLY DEVELOPMENT.png
+  color: "#F5CF87"
+  image: images/majoretten.png
   link: /majoretten.html
 
 - key: departments.tours
-  color: "#4F5D73"
-  image: images/EARLY DEVELOPMENT.png
+  color: "#77B3D4"
+  image: images/globe.png
   link: /tours.html
 
 
 - key: departments.counseling
   color: "#4F5D73"
-  image: images/EARLY DEVELOPMENT.png
+  image: images/psychologie.png
   link: /counseling.html
 
 
