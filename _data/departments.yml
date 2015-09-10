@@ -56,7 +56,7 @@
 - key: departments.tours
   color: "#77B3D4"
   image: images/globe.png
-  link: /tours.html
+  link: registration.html
 
 
 - key: departments.counseling

@@ -1,32 +1,48 @@
-<div class="container-fluid">
-  <div class="row">
-
-    <div class="col-sm-6 col-sm-push-6">
-      <h2> Title</h2>
-      <p>
-        Lorem ipsum dolor sit amet...
-      </p>
-
+<!--<div style="height: 100px;background-color: lightskyblue;width: 100%"></div>-->
+<div class="textImage">
+    <div class="filtergrey">
+        <h1>
+            Коллекция
+        </h1>
     </div>
-    <div class="col-sm-6 col-sm-pull-6 galleryOpenDiv openGallery1">
-      <img class="galleryOpenImg openGallery1" src="images/hero.jpg" onclick="openPhotoSwipe()">
-
-    </div>
-  </div>
-
-  <div class="col-sm-6">
-    <h2> Title</h2>
-    <p>
-      Lorem ipsum dolor sit amet...
-    </p>
-
-  </div>
-  <div class="col-sm-6 galleryOpenDiv openGallery1">
-    <img class="galleryOpenImg openGallery1" src="images/hero.jpg" onclick="openPhotoSwipe()">
-
-  </div>
 </div>
+<div class="container ">
 
+    <div class="row" style="padding-top: 50px; padding-bottom: 50px">
+
+        <div class="col-sm-6 col-sm-push-6">
+            <h2 style="    padding-top: 2px;   text-align: center;">
+                <!--Галерея-->
+
+            </h2>
+
+            <p style="text-align: center">
+                Представленная Коллекция работ детского творчества – уникальное собрание, объединяющее рисунки детей
+                разных возрастов. Основой этой коллекции стали работы, принимающие активное участие в международных и
+                всероссийских фестивалях, выставках, в творческих конкурсах, объединяющих талантливых детей и
+                профессиональных педагогов, друзей и единомышленников, готовых помочь детям ощутить мир во всем его
+                многообразии и вовлечь их в радостный процесс художественного познания мира.
+            </p>
+
+        </div>
+        <div class="col-sm-6 col-sm-pull-6 galleryOpenDiv openGallery1" style="  border: 3px solid #151835;">
+            <img class="galleryOpenImg openGallery1" src="images/hero.jpg" onclick="openPhotoSwipe()">
+
+        </div>
+    </div>
+
+    <!--<div class="col-sm-6">-->
+    <!--<h2> Title</h2>-->
+    <!--<p>-->
+    <!--Lorem ipsum dolor sit amet...-->
+    <!--</p>-->
+
+    <!--</div>-->
+    <!--<div class="col-sm-6 galleryOpenDiv openGallery1">-->
+    <!--<img class="galleryOpenImg openGallery1" src="images/hero.jpg" onclick="openPhotoSwipe()">-->
+
+    <!--</div>-->
+</div>
 
 
 {% include photoswipe.html %}

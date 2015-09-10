@@ -218,7 +218,7 @@ xnavigation
   li {
     @include column(.5);
     /* 68px is the navigation header height  and the menu items will be allocated in 3 rows */
-    height: calc((100vh - 78px)/3);
+    height: 33%;  //calc((100vh - 78px)/3);
     min-height: 120px;
     border: 1px solid $color-7;
     border-top: none;
@@ -255,48 +255,13 @@ xnavigation
     }
   }
 
-  .no-touch & li:first-of-type a:hover,
-  li.cd-selected:first-of-type a {
-    /* on hover or if selected - change background color*/
-    background-color: $color-1;
-  }
-
-  .no-touch & li:nth-of-type(2) a:hover,
-  li.cd-selected:nth-of-type(2) a {
-    /* on hover or if selected - change background color*/
-    background-color: #00821c;
-  }
-
-  .no-touch & li:nth-of-type(3) a:hover,
-  li.cd-selected:nth-of-type(3) a {
-    /* on hover or if selected - change background color*/
-    background-color: $color-3;
-  }
-
-  .no-touch & li:nth-of-type(4) a:hover,
-  li.cd-selected:nth-of-type(4) a {
-    /* on hover or if selected - change background color*/
-    background-color: $color-4;
-  }
-
-  .no-touch & li:nth-of-type(5) a:hover,
-  li.cd-selected:nth-of-type(5) a {
-    /* on hover or if selected - change background color*/
-    background-color: $color-5;
-  }
-
-  .no-touch & li:nth-of-type(6) a:hover,
-  li.cd-selected:nth-of-type(6) a {
-    /* on hover or if selected - change background color*/
-    background-color: $color-6;
-  }
-
   span, em {
     position: absolute;
   }
 
   span {
-    top: calc(50% - 48px);
+    top:20px;
+    //top: calc(50% - 48px);
     left: 50%;
     @include transform(translateX(-50%));
     height: 48px;
@@ -314,7 +279,7 @@ xnavigation
   em {
     width: 100%;
     left: 0;
-    top: calc(50% + 15px);
+    top: 50%;//calc(50% + 15px);
     color: $color-2;
     @include transition(color .2s);
     @include backface-visibility(hidden);
@@ -325,20 +290,20 @@ xnavigation
 
     li {
       /* 116px is the navigation header height and the menu items will be allocated in 3 rows */
-      height: calc((100vh - 126px)/3);
+      height: 33%; // calc((100vh - 126px)/3);
      // min-height: 200px;
     }
 
     span {
       height: 64px;
       width: 64px;
-      top: calc(50% - 56px);
+      //top:50%;  // calc(50% - 56px);
     }
 
     em {
       font-size: 2.2rem;
       font-weight: 300;
-      top: calc(50% + 21px);
+      top: 50%;//calc(50% + 21px);
     }
   }
 
@@ -347,7 +312,7 @@ xnavigation
     li {
       @include column(.25);
       /* 116px is the navigation header height  and the menu items will be allocated in 2 rows */
-      height: calc((100vh - 126px)/2);
+      height: 50% ;//calc((100vh - 126px)/2);
       min-height: 240px;
 
       &:nth-of-type(2n) {

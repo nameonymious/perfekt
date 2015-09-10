@@ -3,24 +3,24 @@ var openPhotoSwipe = function() {
 
     // build items array
     var items = [
-        { src: 'images/g1/DSC_0561.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0839.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0867.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0914.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0931.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_1004.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0292.jpg', w: 1715, h: 1139 },        
-        { src: 'images/g1/DSC_0653.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0840.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0885.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0922.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0933.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0910.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0864.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0799.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0492.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0930.jpg', w: 1715, h: 1139 },
-        { src: 'images/g1/DSC_0982.jpg', w: 1715, h: 1139 }
+
+
+{ src: 'images/g2/Dachboden_S 44.jpg', w: 410, h: 640 },
+{ src: 'images/g2/FullSizeRender (3).jpg', w: 460, h: 640 },
+{ src: 'images/g2/FullSizeRender (6).jpg', w: 640, h: 460 },
+{ src: 'images/g2/FullSizeRender (9).jpg', w: 640, h: 460 },
+{ src: 'images/g2/IMG_0887.JPG', w: 640, h: 460 },
+{ src: 'images/g2/FullSizeRender (1).jpg', w: 462, h: 640 },
+{ src: 'images/g2/FullSizeRender (4).jpg', w: 640, h: 460 },
+{ src: 'images/g2/FullSizeRender (7).jpg', w: 640, h: 460 },
+{ src: 'images/g2/IMG_0793.JPG', w: 640, h: 460 },
+{ src: 'images/g2/IMG_9334.JPG', w: 640, h: 460 },
+{ src: 'images/g2/FullSizeRender (2).jpg', w: 640, h: 460 },
+{ src: 'images/g2/FullSizeRender (5).jpg', w: 640, h: 460 },
+{ src: 'images/g2/FullSizeRender (8).jpg', w: 460, h: 640 },
+{ src: 'images/g2/IMG_0881.JPG', w: 640, h: 460 },
+{ src: 'images/g2/Katze Murka_S 10.jpg', w: 672, h: 962 }
+
     ];
 
     // define options (if needed)
@@ -36,6 +36,7 @@ var openPhotoSwipe = function() {
 
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
+
 };
 
 $(".openGallery1").click(function(){
