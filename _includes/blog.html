@@ -1,0 +1,43 @@
+<div style="background-color: #626975;padding:30px;">
+    <div class="container" style="padding-top: 15px">
+        <div class="row">
+            <ul>
+                {% for post in site.posts %}
+
+
+                <li class="col-sm-4 " style="float: none;  margin: 0 auto;">
+
+                    <div>
+                        <!--<img src="images/1.jpg" style="width: 100%">-->
+
+
+                        <div class="card-title" style="background: url({{post.cover}}) 50% 50% / cover ;">
+                            <a href="{{ post.url }}">
+                                <h6>
+                                    {{ post.title }}
+                                </h6>
+                            </a>
+                        </div>
+
+                        <div class="card-text">
+                            <div>
+                            {{ post.excerpt }}
+                            </div>
+
+                            <a href="{{ post.url }}"> Читать подробнее</a>
+
+                        </div>
+
+                        <span class="sticker sticker--overlap">
+                            {{ post.date | date: "%-d %B %Y" }}
+                        </span>
+                    </div>
+
+
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    </div>
+</div>

@@ -15,6 +15,8 @@
 
 @import 'pricingBox';
 
+@import 'blogcard';
+
 /* -------------------------------- 
 
 Primary style
@@ -161,6 +163,21 @@ $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
   }
 }
 
+.checkList {
+  list-style: none;
+  text-align: left !important;
+  li:before {
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    padding-right: 10px;
+    color: gray;
+  }
+  li {
+    padding-bottom: 10px;
+  }
+}
+
+
 .partyList {
   li:before {
     font-family: 'FontAwesome';
@@ -235,6 +252,8 @@ $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
 
 
 .infoBox {
+  color: #605833;
+  font-family: Enriqueta;
 
   h1,
   h1 a,

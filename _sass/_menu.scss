@@ -1,26 +1,24 @@
 .register {
-  
-   position: absolute;
+
+  position: absolute;
   z-index: 3;
   top: 12px;
   right: 90px;
 
-    height: 44px;
-   
-    z-index: 3;
-   background-color: rgb(47, 123, 176);
-   color: white;
+  height: 44px;
 
-    border-radius: 5px;
-    padding: 10px;
-    
-    
-    & a {
-      color: white;
-    }
-    
-    
-      @include MQ(L) {
+  z-index: 3;
+  background-color: rgb(47, 123, 176);
+  color: white;
+
+  border-radius: 5px;
+  padding: 10px;
+
+  & a {
+    color: white;
+  }
+
+  @include MQ(L) {
     top: 38px;
     right: 140px;
   }
@@ -35,8 +33,8 @@
   right: 30px;
   height: 44px;
   width: 44px;
-   background-color: rgba(236, 236, 236, 0.87);
-    border-radius: 5px;
+  background-color: rgba(236, 236, 236, 0.87);
+  border-radius: 5px;
   /* image replacement */
   overflow: hidden;
   text-indent: 100%;
@@ -59,7 +57,7 @@
       top: 0;
       right: 0;
       width: 100%;
-      height: 100%; 
+      height: 100%;
       background-color: inherit;
 
       /* Force Hardware Acceleration in WebKit */
@@ -86,7 +84,7 @@
     /* rotate trigger on hover */
     @include transform(rotate(180deg));
 
-    span::after, 
+    span::after,
     span::before {
       /* animate arrow --> from hamburger to arrow */
       width: 50%;
@@ -99,14 +97,13 @@
     span::after {
       @include transform(translateX(1px) translateY(-1px) rotate(-45deg));
     }
-  }  
+  }
 
   @include MQ(L) {
     top: 38px;
     right: 80px;
   }
 }
-
 
 /* --------------------------------
 
@@ -120,7 +117,7 @@ xnavigation
   top: 0;
   right: 0;
   width: 80%;
- height: 100%;
+  height: 100%;
   //height: 100vh;
   overflow-y: auto;
   background-color: $color-7;
@@ -218,7 +215,7 @@ xnavigation
   li {
     @include column(.5);
     /* 68px is the navigation header height  and the menu items will be allocated in 3 rows */
-    height: 33%;  //calc((100vh - 78px)/3);
+    height: 33%; //calc((100vh - 78px)/3);
     min-height: 120px;
     border: 1px solid $color-7;
     border-top: none;
@@ -260,7 +257,7 @@ xnavigation
   }
 
   span {
-    top:20px;
+    top: 20px;
     //top: calc(50% - 48px);
     left: 50%;
     @include transform(translateX(-50%));
@@ -279,19 +276,24 @@ xnavigation
   em {
     width: 100%;
     left: 0;
-    top: 50%;//calc(50% + 15px);
+    top: 50%; //calc(50% + 15px);
     color: $color-2;
     @include transition(color .2s);
     @include backface-visibility(hidden);
   }
 
+  @media  (max-width: 1170px ) {
+  svg {
+      width: 45px;
+    }
+  }
 
   @include MQ(M) {
 
     li {
       /* 116px is the navigation header height and the menu items will be allocated in 3 rows */
       height: 33%; // calc((100vh - 126px)/3);
-     // min-height: 200px;
+      // min-height: 200px;
     }
 
     span {
@@ -303,7 +305,7 @@ xnavigation
     em {
       font-size: 2.2rem;
       font-weight: 300;
-      top: 50%;//calc(50% + 21px);
+      top: 50%; //calc(50% + 21px);
     }
   }
 
@@ -312,16 +314,20 @@ xnavigation
     li {
       @include column(.25);
       /* 116px is the navigation header height  and the menu items will be allocated in 2 rows */
-      height: 50% ;//calc((100vh - 126px)/2);
+      height: 50%; //calc((100vh - 126px)/2);
       min-height: 240px;
 
       &:nth-of-type(2n) {
         border-right-width: 1px;
       }
 
-      &:nth-of-type(3n) {
-        border-right-width: 0;
+      & > a {
+        padding-top: 30px;
       }
+
+      /*&:nth-of-type(3n) {
+        border-right-width: 0;
+      }*/
     }
 
     em {
@@ -329,9 +335,6 @@ xnavigation
     }
   }
 }
-
-
-
 
 @include keyframes(cd-shock) {
   0% {

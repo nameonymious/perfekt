@@ -1,10 +1,10 @@
 encoding: UTF-8
 name: Flex
-markdown: redcarpet
+markdown: kramdown
 
 
 baseurl: ""
-permalink: /:title/
+permalink: /news/:title/
 
 languages: ["ru"]
 

@@ -1,0 +1,63 @@
+.card-title {
+  height: 180px;
+  position: relative;
+  text-align: center;
+
+  h6 {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+}
+
+.card-text {
+  position: relative;
+  background-color: white;
+  padding: 10px;
+
+  &>div{
+    position: relative;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  p::after {
+    position: absolute;
+    top: 0;
+    right:0px;
+    bottom: 0;
+    left: 0px;
+    display: block;
+    content: '';
+    background: -moz-linear-gradient(top,rgba(255,255,255,0) 70%,#fff 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(70%,rgba(255,255,255,0)),color-stop(100%,#fff));
+    background: -webkit-linear-gradient(top,rgba(255,255,255,0) 70%,#fff 100%);
+    background: -o-linear-gradient(top,rgba(255,255,255,0) 70%,#fff 100%);
+    background: -ms-linear-gradient(top,rgba(255,255,255,0) 70%,#fff 100%);
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 70%,#fff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+  }
+}
+
+.sticker--overlap {
+  position: absolute;
+  top: -1em;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: 30px;
+  width: 50%;
+}
+
+.sticker {
+  display: inline-block;
+  vertical-align: middle;
+  padding: .3rem 1rem;
+  background-color: #49494a;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+}
