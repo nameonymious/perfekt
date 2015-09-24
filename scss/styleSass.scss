@@ -281,6 +281,9 @@ $colors-list: #F16745 #FFC65D #7BC8A4 #4CC3D9 #93648D #404040;
   ul {
     text-align: CENTER;
   }
+  em {
+    color: red;
+  }
 }
 
 .infoBox2{
@@ -296,4 +299,20 @@ a:hover { text-decoration: underline }
 
 
 
+}
+
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+}
+
+.red {
+  color: red; 
 }

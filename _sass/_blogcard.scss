@@ -20,11 +20,17 @@
 
   &>div{
     position: relative;
+    height: 90px;
+    overflow: hidden;
   }
   h2 {
     margin-top: 0;
   }
-  p::after {
+
+  &>div {
+    position: relative;
+  }
+  &>div ::after {
     position: absolute;
     top: 0;
     right:0px;
