@@ -39,6 +39,53 @@ var openPhotoSwipe = function() {
 
 };
 
+var openPhotoSwipe2 = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [
+
+
+        { src: 'images/photos/IMG_4221.JPG', w: 2448, h: 2448 },
+        { src: 'images/photos/IMG_4222.JPG', w: 2448, h: 2448 },
+        { src: 'images/photos/IMG_4232.JPG', w: 2448, h: 2448 },
+        { src: 'images/photos/IMG_4236.JPG', w: 2448, h: 2448 },
+        { src: 'images/photos/IMG_4238.JPG', w: 2448, h: 2448 },
+        { src: 'images/photos/IMG_4240.JPG', w: 2448, h: 2448 },
+        { src: 'images/photos/IMG_4251.JPG', w: 2448, h: 2448 },
+        { src: 'images/photos/IMG_4255.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_4315.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4337.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_4342.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_4343.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_4349.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_4350.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_4353.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_4359.JPG', w: 2448, h: 3264 },
+
+
+    ];
+
+    // define options (if needed)
+    var options = {
+        // history & focus options are disabled on CodePen
+        history: false,
+        focus: false,
+
+        showAnimationDuration: 0,
+        hideAnimationDuration: 0
+
+    };
+
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+
+};
+
 $(".openGallery1").click(function(){
     openPhotoSwipe();
+});
+
+$(".openGallery2").click(function(){
+    openPhotoSwipe2();
 });
