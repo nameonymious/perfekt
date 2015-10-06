@@ -1,4 +1,0 @@
-for f in *; 
-do
-convert $f -print "{ src: 'images/photos/$f', w: %w, h: %h },\n" /dev/null
-done;

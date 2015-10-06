@@ -5,21 +5,11 @@ var openPhotoSwipe = function() {
     var items = [
 
 
-{ src: 'images/g2/Dachboden_S 44.jpg', w: 410, h: 640 },
-{ src: 'images/g2/FullSizeRender (3).jpg', w: 460, h: 640 },
-{ src: 'images/g2/FullSizeRender (6).jpg', w: 640, h: 460 },
-{ src: 'images/g2/FullSizeRender (9).jpg', w: 640, h: 460 },
-{ src: 'images/g2/IMG_0887.JPG', w: 640, h: 460 },
-{ src: 'images/g2/FullSizeRender (1).jpg', w: 462, h: 640 },
-{ src: 'images/g2/FullSizeRender (4).jpg', w: 640, h: 460 },
-{ src: 'images/g2/FullSizeRender (7).jpg', w: 640, h: 460 },
-{ src: 'images/g2/IMG_0793.JPG', w: 640, h: 460 },
-{ src: 'images/g2/IMG_9334.JPG', w: 640, h: 460 },
-{ src: 'images/g2/FullSizeRender (2).jpg', w: 640, h: 460 },
-{ src: 'images/g2/FullSizeRender (5).jpg', w: 640, h: 460 },
-{ src: 'images/g2/FullSizeRender (8).jpg', w: 460, h: 640 },
-{ src: 'images/g2/IMG_0881.JPG', w: 640, h: 460 },
-{ src: 'images/g2/Katze Murka_S 10.jpg', w: 672, h: 962 }
+        { src: 'images/photos/12039400_1503658306621821_6039414915190530904_n.jpg', w: 960, h: 960 },
+        { src: 'images/photos/12043206_1503658153288503_236017261470489393_n.jpg', w: 960, h: 960 },
+        { src: 'images/photos/12074626_1504762289844756_1162137757236444309_n.jpg', w: 960, h: 960 },
+        { src: 'images/photos/12118817_1504762283178090_5748663463087766276_n.jpg', w: 960, h: 960 },
+        { src: 'images/g2/IMG_9334.JPG', w: 640, h: 460 },
 
     ];
 
@@ -53,7 +43,6 @@ var openPhotoSwipe2 = function() {
         { src: 'images/photos/IMG_4238.JPG', w: 2448, h: 2448 },
         { src: 'images/photos/IMG_4240.JPG', w: 2448, h: 2448 },
         { src: 'images/photos/IMG_4251.JPG', w: 2448, h: 2448 },
-        { src: 'images/photos/IMG_4255.JPG', w: 2448, h: 3264 },
         { src: 'images/photos/IMG_4315.JPG', w: 640, h: 640 },
         { src: 'images/photos/IMG_4337.JPG', w: 2448, h: 3264 },
         { src: 'images/photos/IMG_4342.JPG', w: 2448, h: 3264 },
@@ -62,6 +51,39 @@ var openPhotoSwipe2 = function() {
         { src: 'images/photos/IMG_4350.JPG', w: 2448, h: 3264 },
         { src: 'images/photos/IMG_4353.JPG', w: 2448, h: 3264 },
         { src: 'images/photos/IMG_4359.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_4493.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4494.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4495.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4496.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4498.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4499.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4534.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4535.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4537.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4539.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4541.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4542.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4543.JPG', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4544.JPG', w: 640, h: 640 },
+        { src: 'images/photos/FullSizeRender2.jpg', w: 640, h: 640 },
+        { src: 'images/photos/FullSizeRender3.jpg', w: 640, h: 640 },
+        { src: 'images/photos/FullSizeRender4.jpg', w: 640, h: 640 },
+        { src: 'images/photos/FullSizeRender.jpg', w: 640, h: 640 },
+        { src: 'images/photos/IMG_4362.JPG', w: 640, h: 480 },
+        { src: 'images/photos/IMG_4363.JPG', w: 640, h: 480 },
+        { src: 'images/photos/IMG_4364.JPG', w: 640, h: 480 },
+        { src: 'images/photos/IMG_4365.JPG', w: 640, h: 480 },
+        { src: 'images/photos/IMG_8282.JPG', w: 3264, h: 2448 },
+        { src: 'images/photos/IMG_8308.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_8313.JPG', w: 3264, h: 2448 },
+        { src: 'images/photos/IMG_8315.JPG', w: 3264, h: 2448 },
+        { src: 'images/photos/IMG_8318.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_8326.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_8455.JPG', w: 2448, h: 3264 },
+        { src: 'images/photos/IMG_8456.JPG', w: 3264, h: 2448 },
+
+
+
 
 
     ];
